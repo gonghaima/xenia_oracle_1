@@ -27,8 +27,7 @@ function App() {
       </section>
       <div className="breadcrumb">
         <div className="content_margin flex-center breadcrumb-content">
-          <div>Oracle New Zealand /Industries / Hospitality / Hotel Property Management / Resources</div>
-          <div>Hotel PMS</div>
+          <button>Request a free demo</button>
         </div>
       </div>
       <section className="head-section">

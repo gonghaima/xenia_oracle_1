@@ -4,15 +4,22 @@ $breakpoint-md: 992px;
 $breakpoint-lg: 1200px;
 $breakpoint-xl: 1600px;
 
-$primary-theme-color: #588757;
-$primary-button-color: #6a9d67;
-$primary-button-hover-color: #467146;
+$primary-theme-color: #FB0000;
+$primary-button-color: #FB0000;
+$primary-button-hover-color: #ba0000;
+$secondary-button-color: #6a9d67;
+
+$primary-border-color: #FB0000;
+$secondary-border-color: #1a1816;
+
+
 $primary-font-color: #fff;
 $secondary-font-color: #1a1816;
 $third-font-color: #000;
 $fourth-font-color: #100f0e;
 $fifth-font-color: #fcfbfa;
 $sixth-font-color: rgb(188, 108, 55);
+$seventh-font-color: #FB0000;
 
 $primary-background: rgba(0, 0, 0, 0.6);
 $second-background: rgba(0, 0, 0, 0.1);
@@ -50,12 +57,17 @@ $fourth-background: #fcfbfa;
     height: 40px;
     border-radius: 3px;
     padding: 0px 15px 0px 15px;
-    color: $primary-font-color;
     background-color: $primary-button-color;
     border-color: $primary-theme-color;
     font-size: 0.9em;
     font-weight: 500;
     transition: 0.2s;
+    color: $third-font-color;
+    box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+        border: none;
+        &:hover {
+          background-color: $third-background;
+        }
     &:hover {
       cursor: pointer;
       background-color: $primary-button-hover-color;
@@ -119,7 +131,7 @@ $fourth-background: #fcfbfa;
 .top-section {
   height: 60px;
   padding: 8px;
-  background: #3f3a36;
+  background: #747474;
   display: flex;
   justify-content: center;
 }
@@ -133,6 +145,8 @@ $fourth-background: #fcfbfa;
   font-size: 0.8em;
   color: $primary-font-color;
   display: flex;
+  justify-content: flex-end;
+  @include button-container;
   .breadcrumb-content {
     display: flex;
     flex-direction: column;
@@ -169,14 +183,6 @@ $fourth-background: #fcfbfa;
     }
     .hero-button-container {
       @include button-container;
-      button {
-        color: $third-font-color;
-        background-color: $fifth-font-color;
-        border-color: $third-background;
-        &:hover {
-          background-color: $third-background;
-        }
-      }
     }
   }
 }
