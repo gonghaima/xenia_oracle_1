@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/xenia_oracle_1/static/css/main.39a51d9d.chunk.css",
-    "main.js": "/xenia_oracle_1/static/js/main.43bb4dca.chunk.js",
-    "main.js.map": "/xenia_oracle_1/static/js/main.43bb4dca.chunk.js.map",
+    "main.css": "/xenia_oracle_1/static/css/main.78afdc4e.chunk.css",
+    "main.js": "/xenia_oracle_1/static/js/main.7c9938d0.chunk.js",
+    "main.js.map": "/xenia_oracle_1/static/js/main.7c9938d0.chunk.js.map",
     "runtime-main.js": "/xenia_oracle_1/static/js/runtime-main.842d8e57.js",
     "runtime-main.js.map": "/xenia_oracle_1/static/js/runtime-main.842d8e57.js.map",
     "static/css/2.06565635.chunk.css": "/xenia_oracle_1/static/css/2.06565635.chunk.css",
     "static/js/2.0b3c9cdc.chunk.js": "/xenia_oracle_1/static/js/2.0b3c9cdc.chunk.js",
     "static/js/2.0b3c9cdc.chunk.js.map": "/xenia_oracle_1/static/js/2.0b3c9cdc.chunk.js.map",
     "index.html": "/xenia_oracle_1/index.html",
-    "precache-manifest.d0af7559d99826f585b79f0f1ee57088.js": "/xenia_oracle_1/precache-manifest.d0af7559d99826f585b79f0f1ee57088.js",
+    "precache-manifest.6fe25a07f36a0032a02c289b4435fa1f.js": "/xenia_oracle_1/precache-manifest.6fe25a07f36a0032a02c289b4435fa1f.js",
     "service-worker.js": "/xenia_oracle_1/service-worker.js",
     "static/css/2.06565635.chunk.css.map": "/xenia_oracle_1/static/css/2.06565635.chunk.css.map",
-    "static/css/main.39a51d9d.chunk.css.map": "/xenia_oracle_1/static/css/main.39a51d9d.chunk.css.map",
+    "static/css/main.78afdc4e.chunk.css.map": "/xenia_oracle_1/static/css/main.78afdc4e.chunk.css.map",
     "static/js/2.0b3c9cdc.chunk.js.LICENSE": "/xenia_oracle_1/static/js/2.0b3c9cdc.chunk.js.LICENSE",
     "static/media/hotel-what-is-hotel-pms.jpg": "/xenia_oracle_1/static/media/hotel-what-is-hotel-pms.aecbcb6b.jpg",
     "static/media/oracle-cloud.jpg": "/xenia_oracle_1/static/media/oracle-cloud.9676248c.jpg",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.842d8e57.js",
     "static/css/2.06565635.chunk.css",
     "static/js/2.0b3c9cdc.chunk.js",
-    "static/css/main.39a51d9d.chunk.css",
-    "static/js/main.43bb4dca.chunk.js"
+    "static/css/main.78afdc4e.chunk.css",
+    "static/js/main.7c9938d0.chunk.js"
   ]
 }
