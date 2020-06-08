@@ -40,35 +40,6 @@ function App() {
           </div>
         </div>
       </section>
-      <nav>
-        <div className="nav-item">
-          <ul>
-            <li>
-              <div>
-                <a href="#">Overview</a>
-              </div>
-            </li>
-            <li>
-              <div>
-                <a href="#">Products</a>
-              </div>
-            </li>
-            <li>
-              <div>
-                <a href="#">Solutions</a>
-              </div>
-            </li>
-            <li>
-              <div>
-                <a href="#">Resources</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div className="contact-button-container">
-          <button>Contact us</button>
-        </div>
-      </nav>
       <section className="main-section">
         <div className="side">
           <section className="social-section">
