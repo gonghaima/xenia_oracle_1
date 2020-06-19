@@ -8,6 +8,7 @@ $primary-theme-color: #FB0000;
 $primary-button-color: #FB0000;
 $primary-button-hover-color: #ba0000; 
 $secondary-button-color: rgb(99, 94, 94);
+$secondary-button-hover-color: rgb(69, 64, 64);
 
 $primary-border-color: #FB0000;
 $secondary-border-color: #1a1816;
@@ -141,6 +142,9 @@ $fourth-background: #fcfbfa;
   button {
     margin-right: 10px;
     background-color: $secondary-button-color;
+    &:hover {
+      background-color: $secondary-button-hover-color;
+    }
   }
 }
 
