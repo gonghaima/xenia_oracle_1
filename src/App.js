@@ -19,10 +19,13 @@ function App() {
   return (
     <div className="App">
       <section className="top-section">
-        <div className="content_margin full_width flex-center space-between">
-          <div>Icon</div>
-          <div>Search box</div>
-          <div>Oracle Cloud Free Tier</div>
+        <div className="full_width flex-center flex-end">
+          <button>Home</button>
+          <button>Feature & Benefits</button>
+          <button>About us</button>
+          <button>Services</button>
+          <button>FAQ'S</button>
+          <button>Contact</button>
         </div>
       </section>
       <div className="breadcrumb">
