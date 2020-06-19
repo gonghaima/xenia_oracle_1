@@ -6,8 +6,8 @@ $breakpoint-xl: 1600px;
 
 $primary-theme-color: #FB0000;
 $primary-button-color: #FB0000;
-$primary-button-hover-color: #ba0000;
-$secondary-button-color: #6a9d67;
+$primary-button-hover-color: #ba0000; 
+$secondary-button-color: rgb(99, 94, 94);
 
 $primary-border-color: #FB0000;
 $secondary-border-color: #1a1816;
@@ -54,16 +54,16 @@ $fourth-background: #fcfbfa;
   display: flex;
   align-items: center;
   button {
-    height: 40px;
+    height: 35px;
     border-radius: 3px;
     padding: 0px 15px 0px 15px;
     background-color: $primary-button-color;
     border-color: $primary-theme-color;
     font-size: 0.9em;
-    font-weight: 500;
+    font-weight: 900;
     transition: 0.2s;
-    color: $third-font-color;
-    box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+    color: $primary-font-color;
+    box-shadow:  0 0 5px  rgba(0,0,0,0.6);
         border: none;
         &:hover {
           background-color: $third-background;
@@ -128,12 +128,20 @@ $fourth-background: #fcfbfa;
   justify-content: space-between;
 }
 
+.flex-end {
+  justify-content: flex-end;
+}
+
 .top-section {
   height: 60px;
   padding: 8px;
-  background: #747474;
-  display: flex;
+  background: rgb(112, 112, 112);
   justify-content: center;
+  @include button-container;
+  button {
+    margin-right: 10px;
+    background-color: $secondary-button-color;
+  }
 }
 
 .breadcrumb {
