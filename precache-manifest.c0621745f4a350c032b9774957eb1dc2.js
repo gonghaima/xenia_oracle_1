@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d3e19c8f400f583ae0176346c481feb2",
+    "revision": "c57d31dbe6b16a4ba83f88ab682d38e1",
     "url": "/xenia_oracle_1/index.html"
   },
   {
-    "revision": "15ada11342039e93ee42",
+    "revision": "5a744fb7de71df0f9ba6",
     "url": "/xenia_oracle_1/static/css/2.06565635.chunk.css"
   },
   {
-    "revision": "1f403251735ca33a4b27",
-    "url": "/xenia_oracle_1/static/css/main.7c67f3b3.chunk.css"
+    "revision": "1304616a44a0db8a2398",
+    "url": "/xenia_oracle_1/static/css/main.12d627da.chunk.css"
   },
   {
-    "revision": "15ada11342039e93ee42",
-    "url": "/xenia_oracle_1/static/js/2.0b3c9cdc.chunk.js"
+    "revision": "5a744fb7de71df0f9ba6",
+    "url": "/xenia_oracle_1/static/js/2.7898f052.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/xenia_oracle_1/static/js/2.0b3c9cdc.chunk.js.LICENSE"
+    "url": "/xenia_oracle_1/static/js/2.7898f052.chunk.js.LICENSE"
   },
   {
-    "revision": "1f403251735ca33a4b27",
-    "url": "/xenia_oracle_1/static/js/main.aa9e984c.chunk.js"
+    "revision": "1304616a44a0db8a2398",
+    "url": "/xenia_oracle_1/static/js/main.e60614c0.chunk.js"
   },
   {
     "revision": "b374916e8c2da8203964",
@@ -38,5 +38,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a7c7c89ff1de8394646111a3304e31a6",
     "url": "/xenia_oracle_1/static/media/xenia-head-img.a7c7c89f.jpg"
+  },
+  {
+    "revision": "fd5030aec9283281a78598ba0710a807",
+    "url": "/xenia_oracle_1/static/media/xenia.fd5030ae.png"
   }
 ]);

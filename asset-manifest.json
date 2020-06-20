@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/xenia_oracle_1/static/css/main.7c67f3b3.chunk.css",
-    "main.js": "/xenia_oracle_1/static/js/main.aa9e984c.chunk.js",
-    "main.js.map": "/xenia_oracle_1/static/js/main.aa9e984c.chunk.js.map",
+    "main.css": "/xenia_oracle_1/static/css/main.12d627da.chunk.css",
+    "main.js": "/xenia_oracle_1/static/js/main.e60614c0.chunk.js",
+    "main.js.map": "/xenia_oracle_1/static/js/main.e60614c0.chunk.js.map",
     "runtime-main.js": "/xenia_oracle_1/static/js/runtime-main.842d8e57.js",
     "runtime-main.js.map": "/xenia_oracle_1/static/js/runtime-main.842d8e57.js.map",
     "static/css/2.06565635.chunk.css": "/xenia_oracle_1/static/css/2.06565635.chunk.css",
-    "static/js/2.0b3c9cdc.chunk.js": "/xenia_oracle_1/static/js/2.0b3c9cdc.chunk.js",
-    "static/js/2.0b3c9cdc.chunk.js.map": "/xenia_oracle_1/static/js/2.0b3c9cdc.chunk.js.map",
+    "static/js/2.7898f052.chunk.js": "/xenia_oracle_1/static/js/2.7898f052.chunk.js",
+    "static/js/2.7898f052.chunk.js.map": "/xenia_oracle_1/static/js/2.7898f052.chunk.js.map",
     "index.html": "/xenia_oracle_1/index.html",
-    "precache-manifest.0c53618c080f3b371b9f8611a042686c.js": "/xenia_oracle_1/precache-manifest.0c53618c080f3b371b9f8611a042686c.js",
+    "precache-manifest.c0621745f4a350c032b9774957eb1dc2.js": "/xenia_oracle_1/precache-manifest.c0621745f4a350c032b9774957eb1dc2.js",
     "service-worker.js": "/xenia_oracle_1/service-worker.js",
     "static/css/2.06565635.chunk.css.map": "/xenia_oracle_1/static/css/2.06565635.chunk.css.map",
-    "static/css/main.7c67f3b3.chunk.css.map": "/xenia_oracle_1/static/css/main.7c67f3b3.chunk.css.map",
-    "static/js/2.0b3c9cdc.chunk.js.LICENSE": "/xenia_oracle_1/static/js/2.0b3c9cdc.chunk.js.LICENSE",
+    "static/css/main.12d627da.chunk.css.map": "/xenia_oracle_1/static/css/main.12d627da.chunk.css.map",
+    "static/js/2.7898f052.chunk.js.LICENSE": "/xenia_oracle_1/static/js/2.7898f052.chunk.js.LICENSE",
     "static/media/hotel-what-is-hotel-pms.jpg": "/xenia_oracle_1/static/media/hotel-what-is-hotel-pms.aecbcb6b.jpg",
     "static/media/oracle-cloud.jpg": "/xenia_oracle_1/static/media/oracle-cloud.9676248c.jpg",
-    "static/media/App.scss": "/xenia_oracle_1/static/media/xenia-head-img.a7c7c89f.jpg"
+    "static/media/App.scss": "/xenia_oracle_1/static/media/xenia-head-img.a7c7c89f.jpg",
+    "static/media/xenia.png": "/xenia_oracle_1/static/media/xenia.fd5030ae.png"
   },
   "entrypoints": [
     "static/js/runtime-main.842d8e57.js",
     "static/css/2.06565635.chunk.css",
-    "static/js/2.0b3c9cdc.chunk.js",
-    "static/css/main.7c67f3b3.chunk.css",
-    "static/js/main.aa9e984c.chunk.js"
+    "static/js/2.7898f052.chunk.js",
+    "static/css/main.12d627da.chunk.css",
+    "static/js/main.e60614c0.chunk.js"
   ]
 }
