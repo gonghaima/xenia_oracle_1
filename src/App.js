@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import oracleCloud from './img/oracle-cloud.jpg';
+import logo from './img/xenia.png';
 import whatIsHotelPMS from './img/hotel-what-is-hotel-pms.jpg';
 import './App.scss';
 
@@ -18,6 +19,9 @@ function App() {
 
   return (
     <div className="App">
+      <section className="logo">
+        <img alt="main-img" src={logo} />
+      </section>
       <section className="top-section">
         <div className="full_width flex-center flex-end">
           <button>Home</button>
