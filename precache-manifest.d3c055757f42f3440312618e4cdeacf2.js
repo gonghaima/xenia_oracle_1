@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c57d31dbe6b16a4ba83f88ab682d38e1",
+    "revision": "8e7346c5a722f2cfb1083538a5ef4059",
     "url": "/xenia_oracle_1/index.html"
   },
   {
-    "revision": "5a744fb7de71df0f9ba6",
+    "revision": "792553b1788048cf2fb8",
     "url": "/xenia_oracle_1/static/css/2.06565635.chunk.css"
   },
   {
-    "revision": "1304616a44a0db8a2398",
-    "url": "/xenia_oracle_1/static/css/main.12d627da.chunk.css"
+    "revision": "429db225bbc091c957b5",
+    "url": "/xenia_oracle_1/static/css/main.aad7b33c.chunk.css"
   },
   {
-    "revision": "5a744fb7de71df0f9ba6",
-    "url": "/xenia_oracle_1/static/js/2.7898f052.chunk.js"
+    "revision": "792553b1788048cf2fb8",
+    "url": "/xenia_oracle_1/static/js/2.4f759159.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/xenia_oracle_1/static/js/2.7898f052.chunk.js.LICENSE"
+    "url": "/xenia_oracle_1/static/js/2.4f759159.chunk.js.LICENSE"
   },
   {
-    "revision": "1304616a44a0db8a2398",
-    "url": "/xenia_oracle_1/static/js/main.e60614c0.chunk.js"
+    "revision": "429db225bbc091c957b5",
+    "url": "/xenia_oracle_1/static/js/main.6214ceb3.chunk.js"
   },
   {
     "revision": "b374916e8c2da8203964",
     "url": "/xenia_oracle_1/static/js/runtime-main.842d8e57.js"
+  },
+  {
+    "revision": "0178e91f14bdd8626041b90f4f89dd64",
+    "url": "/xenia_oracle_1/static/media/hotel-management-simplified.0178e91f.png"
   },
   {
     "revision": "aecbcb6b7dbb99b45fa861f50d7dbb85",
