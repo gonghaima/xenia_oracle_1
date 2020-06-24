@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import oracleCloud from './img/oracle-cloud.jpg';
 import logo from './img/xenia.png';
 import whatIsHotelPMS from './img/hotel-what-is-hotel-pms.jpg';
+import hotelManagement from './img/hotel-management-simplified.png';
 import './App.scss';
 
 function App() {
@@ -45,6 +46,11 @@ function App() {
             <button>{header && header.ButtonText}</button>
           </div>
         </div>
+      </section>
+      <section className="sub-head-section">
+        <h2>Hotel Management Simplified</h2>
+        <p>{header && header.Subtitle}</p>
+        <img alt="main-img" src={hotelManagement} />
       </section>
       <section className="main-section">
         <div className="side">
