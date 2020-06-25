@@ -231,7 +231,8 @@ $fourth-background: #fcfbfa;
     }
     img {
       width: 80vw;
-      margin-left: 6vw;
+      max-height: 100%;
+      max-width: 100%;
     }
 }
 
