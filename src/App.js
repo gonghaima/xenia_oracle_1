@@ -9,7 +9,7 @@ function App() {
   const [header, setHeader] = useState();
 
   useEffect(() => {
-    !header && fetch('https://serene-dawn-35666.herokuapp.com/Headers').then(res => {
+    !header && fetch('https://xenia-content.herokuapp.com/headers').then(res => {
 
       return res.json();
     }).then(bd => {
