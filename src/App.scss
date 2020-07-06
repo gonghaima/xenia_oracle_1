@@ -134,11 +134,11 @@ $fourth-background: #fcfbfa;
 }
 
 .logo{
-    position: absolute;
     background: black;
     z-index: 9;
     left: calc(3vw);
     position: relative;
+    width: 200px;
     img {
       height: calc(4vw);
       position: absolute;
