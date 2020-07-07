@@ -165,7 +165,6 @@ $fourth-background: #fcfbfa;
 .breadcrumb {
   height: calc(3.1948881789vw + 26px);
   background: rgb(28,28,28);
-  position: absolute;
   width: 100%;
   max-width: 1600px;
   font-size: 0.8em;
@@ -186,7 +185,7 @@ $fourth-background: #fcfbfa;
 
 .head-section {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
-    url(./img/xenia-head-img.jpg);
+    url(./img/xenia-head-img.png);
   padding: 91px 0px 0px 0px;
   background-size: cover;
   background-position: 66% 0px;
@@ -194,7 +193,7 @@ $fourth-background: #fcfbfa;
   // background-size: cover;
   .head-section-content {
     //  min-height: calc(13.2530120482vw + 187.951807229px + -8.9rem);
-    padding: 3.2em 38px 2em 38px;
+    padding: 3.2em 38px 2em 6em;
     h2 {
       font-size: 2.2em;
       font-weight: 600;
@@ -499,7 +498,7 @@ nav {
     height: calc(3.1948881789vw + 11px);
   }
   .head-section {
-    padding-top: 91px;
+    padding-top: 71px;
   }
   .head-section-content {
     min-height: 320px;
