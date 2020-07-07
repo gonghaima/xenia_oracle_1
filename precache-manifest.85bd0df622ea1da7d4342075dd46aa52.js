@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e474b9c377d20b10f0bc0dc078cfcd05",
+    "revision": "0dcacb4b550fb3c7965c960205c6d670",
     "url": "/xenia_oracle_1/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xenia_oracle_1/static/css/2.06565635.chunk.css"
   },
   {
-    "revision": "f1f6554d15bc12e6c298",
-    "url": "/xenia_oracle_1/static/css/main.5aa06e36.chunk.css"
+    "revision": "a293b24a21a0e90e3371",
+    "url": "/xenia_oracle_1/static/css/main.d954b0dc.chunk.css"
   },
   {
     "revision": "792553b1788048cf2fb8",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xenia_oracle_1/static/js/2.4f759159.chunk.js.LICENSE"
   },
   {
-    "revision": "f1f6554d15bc12e6c298",
+    "revision": "a293b24a21a0e90e3371",
     "url": "/xenia_oracle_1/static/js/main.98554251.chunk.js"
   },
   {
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xenia_oracle_1/static/media/oracle-cloud.9676248c.jpg"
   },
   {
-    "revision": "a7c7c89ff1de8394646111a3304e31a6",
-    "url": "/xenia_oracle_1/static/media/xenia-head-img.a7c7c89f.jpg"
+    "revision": "790eeeadef80b399c6d83a8864d6c1be",
+    "url": "/xenia_oracle_1/static/media/xenia-head-img.790eeead.png"
   },
   {
     "revision": "fd5030aec9283281a78598ba0710a807",
