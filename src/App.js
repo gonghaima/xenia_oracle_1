@@ -3,6 +3,7 @@ import oracleCloud from './img/oracle-cloud.jpg';
 import logo from './img/xenia.png';
 import whatIsHotelPMS from './img/hotel-what-is-hotel-pms.jpg';
 import hotelManagement from './img/hotel-management-simplified.png';
+import featuresImg from './img/features.png';
 import './App.scss';
 
 function App() {
@@ -60,6 +61,12 @@ function App() {
         <h2>{main && main.title}</h2>
         <p>{main && main.details}</p>
         <img alt="main-img" src={hotelManagement} />
+      </section>
+      <section className="feature-section">
+        <img alt="main-img" src={featuresImg} />
+        <h2>The Benefits of Xenia Suite for you</h2>
+        <p>Your customer’s journey begins before they’ve stepped into your hotel. From their initial booking interaction, on-site welcome, in-room experience, to their post-stay reflection; every step counts towards your customer’s satisfaction and ultimately determines their repeat business.</p>
+        <p>Investing in your personalised guest experience will in turn increase your customer loyalty. Xenia Suite offers many benefits for hotelier’s including: </p>
       </section>
       <section className="main-section">
         <div className="side">
