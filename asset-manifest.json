@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/xenia_oracle_1/static/css/main.d954b0dc.chunk.css",
-    "main.js": "/xenia_oracle_1/static/js/main.98554251.chunk.js",
-    "main.js.map": "/xenia_oracle_1/static/js/main.98554251.chunk.js.map",
+    "main.js": "/xenia_oracle_1/static/js/main.f86208b6.chunk.js",
+    "main.js.map": "/xenia_oracle_1/static/js/main.f86208b6.chunk.js.map",
     "runtime-main.js": "/xenia_oracle_1/static/js/runtime-main.842d8e57.js",
     "runtime-main.js.map": "/xenia_oracle_1/static/js/runtime-main.842d8e57.js.map",
     "static/css/2.06565635.chunk.css": "/xenia_oracle_1/static/css/2.06565635.chunk.css",
-    "static/js/2.4f759159.chunk.js": "/xenia_oracle_1/static/js/2.4f759159.chunk.js",
-    "static/js/2.4f759159.chunk.js.map": "/xenia_oracle_1/static/js/2.4f759159.chunk.js.map",
+    "static/js/2.9ec5c3d8.chunk.js": "/xenia_oracle_1/static/js/2.9ec5c3d8.chunk.js",
+    "static/js/2.9ec5c3d8.chunk.js.map": "/xenia_oracle_1/static/js/2.9ec5c3d8.chunk.js.map",
     "index.html": "/xenia_oracle_1/index.html",
-    "precache-manifest.85bd0df622ea1da7d4342075dd46aa52.js": "/xenia_oracle_1/precache-manifest.85bd0df622ea1da7d4342075dd46aa52.js",
+    "precache-manifest.17322a0d7a0382a95b37b8384bbac6d1.js": "/xenia_oracle_1/precache-manifest.17322a0d7a0382a95b37b8384bbac6d1.js",
     "service-worker.js": "/xenia_oracle_1/service-worker.js",
     "static/css/2.06565635.chunk.css.map": "/xenia_oracle_1/static/css/2.06565635.chunk.css.map",
     "static/css/main.d954b0dc.chunk.css.map": "/xenia_oracle_1/static/css/main.d954b0dc.chunk.css.map",
-    "static/js/2.4f759159.chunk.js.LICENSE": "/xenia_oracle_1/static/js/2.4f759159.chunk.js.LICENSE",
+    "static/js/2.9ec5c3d8.chunk.js.LICENSE": "/xenia_oracle_1/static/js/2.9ec5c3d8.chunk.js.LICENSE",
     "static/media/hotel-management-simplified.png": "/xenia_oracle_1/static/media/hotel-management-simplified.0178e91f.png",
     "static/media/hotel-what-is-hotel-pms.jpg": "/xenia_oracle_1/static/media/hotel-what-is-hotel-pms.aecbcb6b.jpg",
     "static/media/oracle-cloud.jpg": "/xenia_oracle_1/static/media/oracle-cloud.9676248c.jpg",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.842d8e57.js",
     "static/css/2.06565635.chunk.css",
-    "static/js/2.4f759159.chunk.js",
+    "static/js/2.9ec5c3d8.chunk.js",
     "static/css/main.d954b0dc.chunk.css",
-    "static/js/main.98554251.chunk.js"
+    "static/js/main.f86208b6.chunk.js"
   ]
 }
