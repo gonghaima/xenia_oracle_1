@@ -7,6 +7,7 @@ import './App.scss';
 
 function App() {
   const [header, setHeader] = useState();
+  const [main, setMain] = useState();
 
   useEffect(() => {
     !header && fetch('https://xenia-content.herokuapp.com/headers').then(res => {
@@ -16,7 +17,15 @@ function App() {
       console.log(bd);
       setHeader(bd[0]);
     });
-  }, [header]);
+
+    !header && fetch('https://xenia-content.herokuapp.com/mains').then(res => {
+
+      return res.json();
+    }).then(bd => {
+      console.log(bd);
+      setMain(bd[0]);
+    });
+  }, [header, main]);
 
   return (
     <div className="App">
@@ -48,8 +57,8 @@ function App() {
         </div>
       </section>
       <section className="sub-head-section">
-        <h2>Hotel Management Simplified</h2>
-        <p>{header && header.Subtitle}</p>
+        <h2>{main && main.title}</h2>
+        <p>{main && main.details}</p>
         <img alt="main-img" src={hotelManagement} />
       </section>
       <section className="main-section">
