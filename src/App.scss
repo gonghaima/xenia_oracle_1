@@ -399,10 +399,14 @@ nav {
   display: flex;
   flex-flow: row wrap;
   align-items: stretch;
+  img{
+    width: 100%;
+    height: auto;
+  }
   .side {
     width: calc(33.3333% - 36px);
     max-width: calc(33.3333% - 36px);
-    margin-right: 18px;
+    margin-right: 3em;
     color: $secondary-font-color;
     section {
       padding-bottom: 1.4em;
@@ -466,7 +470,7 @@ nav {
     }
     .learn-more-button-container {
       @include button-container;
-      padding-bottom: 3.5em;
+      padding-bottom: 3em;
     }
 
     li {
@@ -494,6 +498,10 @@ nav {
   }
   .main-section {
     main {
+      display:flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      padding: 1em;
       h2 {
         font-size: calc(1vw + 25px);
       }
