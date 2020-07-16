@@ -3,6 +3,12 @@ import oracleCloud from './img/oracle-cloud.jpg';
 import logo from './img/xenia.png';
 import whatIsHotelPMS from './img/hotel-what-is-hotel-pms.jpg';
 import hotelManagement from './img/hotel-management-simplified.png';
+import featuresImg from './img/features.png';
+import b1Img from './img/benefits/b1.png';
+import b2Img from './img/benefits/b2.png';
+import b3Img from './img/benefits/b3.png';
+import b4Img from './img/benefits/b4.png';
+
 import './App.scss';
 
 function App() {
@@ -61,173 +67,58 @@ function App() {
         <p>{main && main.details}</p>
         <img alt="main-img" src={hotelManagement} />
       </section>
+      <section className="feature-section">
+        <img alt="main-img" src={featuresImg} />
+        <h2>The Benefits of Xenia Suite for you</h2>
+        <p>Your customer’s journey begins before they’ve stepped into your hotel. From their initial booking interaction, on-site welcome, in-room experience, to their post-stay reflection; every step counts towards your customer’s satisfaction and ultimately determines their repeat business.</p>
+        <p>Investing in your personalised guest experience will in turn increase your customer loyalty. Xenia Suite offers many benefits for hotelier’s including: </p>
+      </section>
       <section className="main-section">
         <div className="side">
-          <section className="social-section">
-            <h2>Share this page</h2>
-            <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
-          </section>
-          <section className="in-page-section">
-            <h3>In-Page Topics</h3>
-            <ul className="in-page-content">
-              <li>
-                <a href="#">How Hotel PMS Works</a>
-              </li>
-              <li>
-                <a href="#">What is a Hotel Property Management System</a>
-              </li>
-              <li>
-                <a href="#">Business Benefits of Hotel PMS</a>
-              </li>
-              <li>
-                <a href="#">Selecting the Right Hotel Property Management System</a>
-              </li>
-              <li>
-                <a href="#">Deploying Cloud-Based Hotel PMS</a>
-              </li>
-              <li>
-                <a href="#">Oracle Hotel Property Management</a>
-              </li>
-            </ul>
-
-          </section>
-          <section className="learn-more-section">
-            <h3>Learn More</h3>
-            <ul className="learn-more-content">
-              <li>
-                <a href="#">What is OPERA Hotel PMS?</a>
-              </li>
-              <li>
-                <a href="#">Selecting the right hotel property management system</a>
-              </li>
-              <li>
-                <a href="#">Are you ready for mobile Hotel PMS?</a>
-              </li>
-              <li>
-                <a href="#">How does the OPERA Property Management solution work?</a>
-              </li>
-            </ul>
-          </section>
+          <img alt="b1-img" src={b1Img} />
         </div>
         <main>
-          <h2>How Hotel PMS Works</h2>
-          <p>OPERA Cloud hotel property management system offers hoteliers capabilities to enhance operating efficiency and deliver exceptional guest experiences. The platform integrates emerging technologies with ease, accelerating innovation to meet ever-changing demands.</p>
-          <div className="main-video" data-aos="fade-in">
-            <img alt="main-img" src={oracleCloud} />
-          </div>
+          <h3>Enhanced check-in/check-out capabilities</h3>
+          <p>empower your guests through the Xenia Suite mobile app. Guests can manage self-check-in / check-out, receive and send alerts for delays and emergencies; and manage their booking preferences through a touch of a button.</p>
           <div className="learn-more-button-container">
-            <button>Learn more about Oracle Hotel PMS</button>
+            <button>FIND OUT MORE</button>
           </div>
-          <section className="split-section">
-            <h2>Hotel PMS Defined</h2>
-            <p>Traditionally, a hotel property management system was defined as a platform that enabled a hotel or group of hotels to manage front-office capabilities, such as booking reservations, guest check-in/check-out, room assignment, managing room rates, and billing. Hotel PMS delivered a software platform that replaced time-intensive, paper and spreadsheet-heavy processes.</p>
-            <p>However, <a className="link" href="#">hotel PMS</a> technology has evolved and greater integrations offer services that extend well beyond the front desk. Hotel PMS is now a critical business operations system that enables hoteliers to deliver a seamless guest experience. Hotel PMS now integrates to other onsite services that impact the guest's complete experience, including:</p>
-            <ul className="split-content">
-              <li>
-                <a href="#">OPERA Cloud Property Management System</a>
-              </li>
-              <li>
-                <a href="#">Sales and Catering</a>
-              </li>
-              <li>
-                <a href="#">Reporting and Analytics</a>
-              </li>
-              <li>
-                <a href="#">Loyalty</a>
-              </li>
-              <li>
-                <a href="#">Mobility</a>
-              </li>
-              <li>
-                <a href="#">Distribution and Revenue Optimization</a>
-              </li>
-            </ul>
-            <div className="main-img" data-aos="fade-in">
-              <img alt="main-video" src={whatIsHotelPMS} />
-            </div>
-          </section>
-          <section className="split-section">
-            <h2>Business Benefits of Hotel Property Management</h2>
-            <p>The consumer's travel journey begins by selecting a destination while simultaneously shopping for a hotel. That pre-stay shopping and booking interaction, their on-property engagement with the hotel and its staff, their in-room experience, and their sharing of feedback on social media post-stay are all part of their guest experience. Hoteliers are challenged with providing a personalized guest experience while operating an effective hotel business. Today's hotel PMS solutions help hoteliers deliver the experience guests want, while efficiently managing their business. Hotel PMS offers many benefits for a hotelier's business. They include:</p>
-            <table>
-              <tbody>
-                <tr>
-                  <td>Enhanced check-in/check-out capabilities</td>
-                  <td>Provide anytime, anywhere service to your guests using a <a href="/nz/industries/hospitality/hotels-resorts/mobile.html">mobile-enabled cloud-based hotel PMS</a>. Untether your front-desk staff so they can check guests in, assign rooms, enable guest services, and check guests out wherever there is internet connectivity</td>
-                </tr>
-                <tr>
-                  <td>Improved housekeeping service</td>
-                  <td>Increase housekeeping efficiency with instant updates on housekeeping <a href="/nz/industries/food-beverage/products/micros-tablet-700-series.html">mobile devices</a> when customers check out, freeing up rooms for cleaning. Enable greater flexibility with room management and improve response time for room-service tasks. Identify and manage room-maintenance needs, ensuring rooms are clean and in perfect condition</td>
-                </tr>
-                <tr>
-                  <td>Integrated hotel back-office systems</td>
-                  <td>Connect operations and financial processes by leveraging prebuilt integrations to accounts receivable, accounts payable, payment gateways, hotel industry applications, and property infrastructure devices. Integrate accounts receivable and commission handling. Ensure accurate guest folios for faster, more accurate billing.</td>
-                </tr>
-                <tr>
-                  <td>Effective hotel distribution management</td>
-                  <td>Increase room occupancy and ADR through real-time rate and availability <a href="/nz/industries/hospitality/products/otas-gds-channels-self-service.html">management across distribution channels</a>. Boost sales through direct booking channels on brand website.</td>
-                </tr>
-                <tr>
-                  <td>Improved hotel revenue management</td>
-                  <td>Empower managers to improve ADR with extensive options for setting rates and advanced rate-management features for manual and semiautomated revenue management.</td>
-                </tr>
-                <tr>
-                  <td>Better managed customer data</td>
-                  <td>Centralize and secure customer data and improve the quality and accuracy of guest profiles with <a href="/nz/industries/hospitality/products/opera-reporting-analytics.html">reporting and analytics</a>. Understand customer buying patterns so you can define more <a href="/nz/industries/hospitality/products/opera-customer-loyalty-tracking.html">targeted packages and services</a>. Ensure compliance with national and international data-compliance rules</td>
-                </tr>
-              </tbody>
-            </table>
-            <div className="additional-info">
-              <div className="additional-info-l">
-                <h3>Learn more</h3>
-              </div>
-              <ul className="additional-info-r">
-                <li>
-                  <a href="#">
-                    <div></div>
-                    <span>Quick Tour</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <div></div>
-                    <span>Process Map</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <div></div>
-                    <span>Data Sheet</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </section>
-          <section className="split-section">
-            <h2>Selecting the Right Hotel PMS</h2>
-            <p>Choosing the right hotel property management system is critical to the smooth running of your hotel operation. It pays to understand exactly what you do need, and what you don't need.</p>
-            <p>The <a href="#">2019 Smart Decision Guide to Hotel Property Management Systems</a> provides the information you need to make a smart decision and find the <a href="#">hotel PMS</a> that best fits your need. This research report, conducted by Starfleet and sponsored by Oracle Hospitality, provides a checklist to use when evaluating hotel PMS, a list of must-ask questions for vendors, a roadmap for buying decisions, and valuable insights from industry insiders and experts.</p>
-          </section>
-          <section className="split-section">
-            <h2>Deploying Cloud-Based Hotel PMS</h2>
-            <p>Until recently, hotel PMS solutions were often managed on premises. On-premises solutions include hardware that can take up a lot of space. Resources were needed to manage the systems and software updates, upgrades, and patches needed to be scheduled and installed manually by onsite staff.</p>
-            <p>Cloud-based, mobile-enabled hotel PMS platforms offer hotels an innovative way to engage with guests while enabling hotels to reduce IT costs and simplify their infrastructure. The systems are administered by the vendor and are easy to use. Updates, upgrades, and patches are done automatically, saving hotels time and money.</p>
-            <p>The benefits of cloud-based hotel PMS solutions include:</p>
-            <ul className="content-list-container">
-              <li>
-                <strong>Faster innovation.</strong> With cloud-based hotel PMS, hotels can bring new properties online more quickly. Each new release brings new capabilities to help deliver great guest experiences, improve operating efficiency, and increase employee productivity.
-              </li>
-              <li>d</li>
-              <li>d</li>
-              <li>d</li>
-            </ul>
-          </section>
+        </main>
+      </section>
+      <section className="main-section">
+        <div className="side">
+          <img alt="b2-img" src={b2Img} />
+        </div>
+        <main>
+          <h3>Improved housekeeping service</h3>
+          <p>monitor performance, rostering and ensure rooms are clean and in perfect condition. Enjoy greater flexibility with room-service tasks and maintenance needs with our automated software.</p>
+          <div className="learn-more-button-container">
+            <button>FIND OUT MORE</button>
+          </div>
+        </main>
+      </section>
+      <section className="main-section">
+        <div className="side">
+          <img alt="b3-img" src={b3Img} />
+        </div>
+        <main>
+          <h3>Integrated hotel back-office systems</h3>
+          <p>connect operations and financial processes including full accounting, balance sheets, cash and inventory management, and with instant cashflow visibility.</p>
+          <div className="learn-more-button-container">
+            <button>FIND OUT MORE</button>
+          </div>
+        </main>
+      </section>
+      <section className="main-section">
+        <div className="side">
+          <img alt="b4-img" src={b4Img} />
+        </div>
+        <main>
+          <h3>Centralised customer data</h3>
+          <p>improve the quality and accuracy of your guest profiles with reporting and analytics. Understand your customer buying patterns so you can create targeted packages, services and marketing campaigns with ease.</p>
+          <div className="learn-more-button-container">
+            <button>FIND OUT MORE</button>
+          </div>
         </main>
       </section>
     </div>
