@@ -73,6 +73,9 @@ $fourth-background: #fcfbfa;
       cursor: pointer;
       background-color: $primary-button-hover-color;
     }
+    &:focus {
+      outline: 0;
+    }
   }
 }
 
