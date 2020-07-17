@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "81e1d64a5cf6d3ce6ea8c6281c3b97df",
+    "revision": "0a627746bc0a6b60c90bbc277fb421ab",
     "url": "/xenia_oracle_1/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xenia_oracle_1/static/css/2.06565635.chunk.css"
   },
   {
-    "revision": "f376415b1ac82c2fa30b",
-    "url": "/xenia_oracle_1/static/css/main.ccfb5855.chunk.css"
+    "revision": "d781a6ffb355ec6387ac",
+    "url": "/xenia_oracle_1/static/css/main.bbafe907.chunk.css"
   },
   {
     "revision": "abe82c34c80bfb663b23",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xenia_oracle_1/static/js/2.980fc44e.chunk.js.LICENSE"
   },
   {
-    "revision": "f376415b1ac82c2fa30b",
-    "url": "/xenia_oracle_1/static/js/main.7b09597c.chunk.js"
+    "revision": "d781a6ffb355ec6387ac",
+    "url": "/xenia_oracle_1/static/js/main.a9edeeec.chunk.js"
   },
   {
     "revision": "b374916e8c2da8203964",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ace18f9890325acf0c6442ce6294e29a",
     "url": "/xenia_oracle_1/static/media/features.ace18f98.png"
+  },
+  {
+    "revision": "a0527af856ee029294671495c7ae4b68",
+    "url": "/xenia_oracle_1/static/media/footer-bg.a0527af8.jpg"
   },
   {
     "revision": "0178e91f14bdd8626041b90f4f89dd64",
