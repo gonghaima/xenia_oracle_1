@@ -492,6 +492,41 @@ nav {
   }
 }
 
+.footer-section {
+  padding: 2em;
+  display: block;
+  background: url(./img/footer-bg.jpg);
+  background-size: cover;
+    & .left, & .right{
+      color:$primary-font-color;
+    }
+    & .right{
+      text-align: right;
+      & .heading{
+        margin: 0.6em 0px 0.6em 0em;
+      }
+    }
+    & .footer-button-container{
+      @include button-container;
+    }
+     & .main{
+       display: flex;
+       justify-content: space-between;
+     }
+     & .nav{
+       color:$primary-font-color;
+       display: flex;
+      justify-content: space-evenly;
+     }
+     h5 {
+       margin: 0.1em 0px 0.1em 0em;
+       font-weight: 400;
+       &.heading{
+         margin: 1.5em 0px 1.5em 0em;
+       }
+     }
+}
+
 @media only screen and (min-width: $breakpoint-xs) {
   .head-section {
     padding-top: 71px;

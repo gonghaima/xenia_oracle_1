@@ -121,6 +121,32 @@ function App() {
           </div>
         </main>
       </section>
+      <section className="footer-section">
+        <div className="main">
+          <div className="left">
+            <div className="footer-button-container">
+              <button>{header && header.ButtonText}</button>
+            </div>
+            <h5 className="heading">Contact details</h5>
+            <h5>P: 0800 4 Xenia | 01800 493 642</h5>
+            <h5>XeniaSales@xeniasuite.com</h5>
+            <h5>A: Insert</h5>
+          </div>
+          <div className="right">
+            <h4 className="heading">Main Menue</h4>
+            <h5>Home</h5>
+            <h5>Services</h5>
+            <h5>About us</h5>
+            <h5>Features & benefits</h5>
+            <h5>FAQ’s</h5>
+            <h5>Contac us</h5>
+          </div>
+        </div>
+        <h5 className="nav">
+          Customer care | Careers | Connect with us | Terms and conditions
+        </h5>
+      </section>
+
     </div>
   );
 }
