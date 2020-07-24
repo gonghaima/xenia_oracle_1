@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/xenia_oracle_1/static/css/main.bbafe907.chunk.css",
-    "main.js": "/xenia_oracle_1/static/js/main.a9edeeec.chunk.js",
-    "main.js.map": "/xenia_oracle_1/static/js/main.a9edeeec.chunk.js.map",
+    "main.js": "/xenia_oracle_1/static/js/main.9a75f72c.chunk.js",
+    "main.js.map": "/xenia_oracle_1/static/js/main.9a75f72c.chunk.js.map",
     "runtime-main.js": "/xenia_oracle_1/static/js/runtime-main.842d8e57.js",
     "runtime-main.js.map": "/xenia_oracle_1/static/js/runtime-main.842d8e57.js.map",
     "static/css/2.06565635.chunk.css": "/xenia_oracle_1/static/css/2.06565635.chunk.css",
     "static/js/2.980fc44e.chunk.js": "/xenia_oracle_1/static/js/2.980fc44e.chunk.js",
     "static/js/2.980fc44e.chunk.js.map": "/xenia_oracle_1/static/js/2.980fc44e.chunk.js.map",
     "index.html": "/xenia_oracle_1/index.html",
-    "precache-manifest.9a8c417e335e480a7b28c02a4486bd36.js": "/xenia_oracle_1/precache-manifest.9a8c417e335e480a7b28c02a4486bd36.js",
+    "precache-manifest.6f52634381a1edf4d6fba9baed930de0.js": "/xenia_oracle_1/precache-manifest.6f52634381a1edf4d6fba9baed930de0.js",
     "service-worker.js": "/xenia_oracle_1/service-worker.js",
     "static/css/2.06565635.chunk.css.map": "/xenia_oracle_1/static/css/2.06565635.chunk.css.map",
     "static/css/main.bbafe907.chunk.css.map": "/xenia_oracle_1/static/css/main.bbafe907.chunk.css.map",
@@ -18,7 +18,7 @@
     "static/media/b2.png": "/xenia_oracle_1/static/media/b2.660728f2.png",
     "static/media/b3.png": "/xenia_oracle_1/static/media/b3.7b5f7f3c.png",
     "static/media/b4.png": "/xenia_oracle_1/static/media/b4.084e7243.png",
-    "static/media/features.png": "/xenia_oracle_1/static/media/features.ace18f98.png",
+    "static/media/features.jpg": "/xenia_oracle_1/static/media/features.658fa107.jpg",
     "static/media/App.scss": "/xenia_oracle_1/static/media/xenia-head-img.790eeead.png",
     "static/media/hotel-management-simplified.png": "/xenia_oracle_1/static/media/hotel-management-simplified.0178e91f.png",
     "static/media/hotel-what-is-hotel-pms.jpg": "/xenia_oracle_1/static/media/hotel-what-is-hotel-pms.aecbcb6b.jpg",
@@ -30,6 +30,6 @@
     "static/css/2.06565635.chunk.css",
     "static/js/2.980fc44e.chunk.js",
     "static/css/main.bbafe907.chunk.css",
-    "static/js/main.a9edeeec.chunk.js"
+    "static/js/main.9a75f72c.chunk.js"
   ]
 }
