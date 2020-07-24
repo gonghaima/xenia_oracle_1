@@ -3,7 +3,7 @@ import oracleCloud from './img/oracle-cloud.jpg';
 import logo from './img/xenia.png';
 import whatIsHotelPMS from './img/hotel-what-is-hotel-pms.jpg';
 import hotelManagement from './img/hotel-management-simplified.png';
-import featuresImg from './img/features.png';
+import featuresImg from './img/features.jpg';
 import b1Img from './img/benefits/b1.png';
 import b2Img from './img/benefits/b2.png';
 import b3Img from './img/benefits/b3.png';
