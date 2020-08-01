@@ -12,7 +12,7 @@ import b4Img from '../../images/benefits/b4.png';
 
 import './app.scss';
 
-function App() {
+export default () => {
   const [header, setHeader] = useState();
   const [main, setMain] = useState();
 
@@ -151,5 +151,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
