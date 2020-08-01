@@ -10,7 +10,7 @@ import b2Img from '../../images/benefits/b2.png';
 import b3Img from '../../images/benefits/b3.png';
 import b4Img from '../../images/benefits/b4.png';
 
-import './App.scss';
+import './app.scss';
 
 function App() {
   const [header, setHeader] = useState();
