@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './App.scss';
 import oracleCloud from '../../images/oracle-cloud.jpg';
 import logo from '../../images/xenia.png';
 import { Router, Link } from '@reach/router';
@@ -6,7 +7,6 @@ import Home from '../Home';
 import Features from '../Features';
 
 
-import './app.scss';
 
 export default () => {
   const [header, setHeader] = useState();
@@ -28,12 +28,12 @@ export default () => {
       </section>
       <section className="top-section">
         <div className="full_width flex-center flex-end">
-          <button>
+
             <Link to="/">Home</Link>
-          </button>
-          <button>
+
+
             <Link to="/features">Features & Benefits</Link>
-          </button>
+
           <button>About us</button>
           <button>Services</button>
           <button>FAQ'S</button>
