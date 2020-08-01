@@ -77,6 +77,10 @@ $fourth-background: #fcfbfa;
       outline: 0;
     }
   }
+  a {
+    color: $primary-font-color;
+    text-decoration: none;
+  }
 }
 
 @mixin icon-container {
