@@ -188,7 +188,7 @@ $fourth-background: #fcfbfa;
 
 .head-section {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
-    url(./img/xenia-head-img.png);
+    url(../../images/xenia-head-img.png);
   padding: 91px 0px 0px 0px;
   background-size: cover;
   background-position: 66% 0px;
@@ -495,7 +495,7 @@ nav {
 .footer-section {
   padding: 2em;
   display: block;
-  background: url(./img/footer-bg.jpg);
+  background: url(../../images/footer-bg.jpg);
   background-size: cover;
     & .left, & .right{
       color:$primary-font-color;

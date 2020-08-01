@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react';
-import oracleCloud from './img/oracle-cloud.jpg';
-import logo from './img/xenia.png';
-import whatIsHotelPMS from './img/hotel-what-is-hotel-pms.jpg';
-import hotelManagement from './img/hotel-management-simplified.png';
-import featuresImg from './img/features.jpg';
-import b1Img from './img/benefits/b1.png';
-import b2Img from './img/benefits/b2.png';
-import b3Img from './img/benefits/b3.png';
-import b4Img from './img/benefits/b4.png';
+import oracleCloud from '../../images/oracle-cloud.jpg';
+// import oracleCloud from '../../images/oracle-cloud.jpg';
+import logo from '../../images/xenia.png';
+import whatIsHotelPMS from '../../images/hotel-what-is-hotel-pms.jpg';
+import hotelManagement from '../../images/hotel-management-simplified.png';
+import featuresImg from '../../images/features.jpg';
+import b1Img from '../../images/benefits/b1.png';
+import b2Img from '../../images/benefits/b2.png';
+import b3Img from '../../images/benefits/b3.png';
+import b4Img from '../../images/benefits/b4.png';
 
 import './App.scss';
 
