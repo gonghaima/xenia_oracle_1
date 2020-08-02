@@ -54,7 +54,7 @@ $fourth-background: #fcfbfa;
 @mixin button-container {
   display: flex;
   align-items: center;
-  button {
+  button, a {
     height: 35px;
     border-radius: 3px;
     padding: 0px 15px 0px 15px;
@@ -76,6 +76,15 @@ $fourth-background: #fcfbfa;
     &:focus {
       outline: 0;
     }
+  }
+  a {
+    color: $primary-font-color;
+    background-color: #635e5e;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    font-weight: 600;
   }
 }
 
@@ -188,7 +197,7 @@ $fourth-background: #fcfbfa;
 
 .head-section {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
-    url(./img/xenia-head-img.png);
+    url(../../images/xenia-head-img.png);
   padding: 91px 0px 0px 0px;
   background-size: cover;
   background-position: 66% 0px;
@@ -495,7 +504,7 @@ nav {
 .footer-section {
   padding: 2em;
   display: block;
-  background: url(./img/footer-bg.jpg);
+  background: url(../../images/footer-bg.jpg);
   background-size: cover;
     & .left, & .right{
       color:$primary-font-color;
