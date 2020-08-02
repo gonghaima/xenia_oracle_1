@@ -54,7 +54,7 @@ $fourth-background: #fcfbfa;
 @mixin button-container {
   display: flex;
   align-items: center;
-  button {
+  button, a {
     height: 35px;
     border-radius: 3px;
     padding: 0px 15px 0px 15px;
@@ -79,7 +79,12 @@ $fourth-background: #fcfbfa;
   }
   a {
     color: $primary-font-color;
+    background-color: #635e5e;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    font-weight: 600;
   }
 }
 

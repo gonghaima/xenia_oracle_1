@@ -29,15 +29,12 @@ export default () => {
       <section className="top-section">
         <div className="full_width flex-center flex-end">
 
-            <Link to="/">Home</Link>
-
-
-            <Link to="/features">Features & Benefits</Link>
-
-          <button>About us</button>
-          <button>Services</button>
-          <button>FAQ'S</button>
-          <button>Contact</button>
+          <Link to="/">Home</Link>
+          <Link to="/features">Features & Benefits</Link>
+          <Link to="/">About us</Link>
+          <Link to="/">Services</Link>
+          <Link to="/">FAQ'S</Link>
+          <Link to="/">Contact</Link>
         </div>
       </section>
       <div className="breadcrumb">
