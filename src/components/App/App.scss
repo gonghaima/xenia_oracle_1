@@ -195,9 +195,7 @@ $fourth-background: #fcfbfa;
   }
 }
 
-.head-section {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
-    url(../../images/xenia-head-img.png);
+@mixin head-section-mix {
   padding: 91px 0px 0px 0px;
   background-size: cover;
   background-position: 66% 0px;
@@ -225,6 +223,18 @@ $fourth-background: #fcfbfa;
       @include button-container;
     }
   }
+}
+
+.head-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+    url(../../images/xenia-head-img.png);
+  @include head-section-mix;
+}
+
+.head-section-features {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+    url(../../images/xenia-head-img-features.png);
+  @include head-section-mix;
 }
 
 @mixin content-section {
