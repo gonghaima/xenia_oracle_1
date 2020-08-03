@@ -9,7 +9,7 @@ import b2Img from '../../images/benefits/b2.png';
 import b3Img from '../../images/benefits/b3.png';
 import b4Img from '../../images/benefits/b4.png';
 
-export default ({header}) => {
+export default ({ header }) => {
     const [main, setMain] = useState();
 
     useEffect(() => {
@@ -37,6 +37,12 @@ export default ({header}) => {
                 <h2>{main && main.title}</h2>
                 <p>{main && main.details}</p>
                 <img alt="main-img" src={hotelManagement} />
+            </section>
+            <section className="notification-section">
+                <h2>Covid-19 Update</h2>
+                <p>At Xenia Suite, we understand the challenges involved in working in a seasonal business, and even more so during a global crisis. We want to help you through this uncertain time, and that’s why, when times are tough your monthly fees are reduced in line with your occupancy rates.</p>
+                <p>We’re in this together and are here to help our clients as much as we can. Talk to us today to hear how we can help you reduce your outgoings and focus on keeping your business in the black.</p>
+                <div className="button-container"><button>Contact Us</button></div>
             </section>
             <section className="feature-section">
                 <img alt="main-img" src={featuresImg} />
