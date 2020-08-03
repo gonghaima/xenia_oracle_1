@@ -30,7 +30,7 @@ export default () => {
         <div className="full_width flex-center flex-end">
 
           <Link to="/">Home</Link>
-          <Link to="features">Features & Benefits</Link>
+          <Link to="/features">Features & Benefits</Link>
           <Link to="/">About us</Link>
           <Link to="/">Services</Link>
           <Link to="/">FAQ'S</Link>
@@ -44,8 +44,8 @@ export default () => {
       </div>
 
       <Router>
-        <Home path={process.env.PUBLIC_URL + '/'} header={header} />
-        <Features path={process.env.PUBLIC_URL + '/features'} header={header} />
+        <Home path="/" header={header} />
+        <Features path="/features" header={header} />
       </Router>
 
 
