@@ -27,6 +27,8 @@ $second-background: rgba(0, 0, 0, 0.1);
 $third-background: #ece9e6;
 $fourth-background: #fcfbfa;
 
+$notification-bg-color: #000;
+
 @mixin general-section {
   li {
     position: relative;
@@ -270,6 +272,27 @@ $fourth-background: #fcfbfa;
   img {
     width: 100%;
     height: auto;
+  }
+}
+
+.notification-section{
+  @include content-section;
+  h2{
+    font-size: 1.7em;
+    margin: 40px 30px 20px 30px;
+  }
+  p {
+    margin-bottom:20px;
+    width: 78vw;
+  }
+  background-color: $notification-bg-color;
+  color: $primary-font-color;
+  .button-container {
+      @include button-container;
+      button {
+        margin: 0.3em 1em 3em 1em;
+        min-width: 18em;
+      }
   }
 }
 
