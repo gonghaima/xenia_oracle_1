@@ -44,8 +44,8 @@ export default () => {
       </div>
 
       <Router>
-        <Home path="/" header={header} />
-        <Features path="/features" header={header} />
+        <Home path={process.env.PUBLIC_URL + '/'} header={header} />
+        <Features path={process.env.PUBLIC_URL + '/features'} header={header} />
       </Router>
 
 
