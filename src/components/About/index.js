@@ -26,11 +26,11 @@ export default ({ header }) => {
         <>
             <section className="head-section-about">
                 <div className="head-section-content">
-                    <h2>About Us</h2>
+                    <h2>Xenia Suite</h2>
                 </div>
             </section>
             <section className="about-content-section">
-                <h2>Technology you can trust</h2>
+                <h2>About Us</h2>
                 <p>
                     Proudly Kiwi owned and operated, Xenia Suite is run by an agile team of industry experts, with a combined 80 years of experience in hospitality
                     and software development, and a passion for what we do.
