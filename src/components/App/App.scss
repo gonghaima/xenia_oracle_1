@@ -239,6 +239,11 @@ $notification-bg-color: #000;
   @include head-section-mix;
 }
 
+.head-section-about {
+  background: url(../../images/xenia-head-img-about.jpg);
+  @include head-section-mix;
+}
+
 @mixin content-section {
     display: flex;
     flex-direction: column;
@@ -267,11 +272,35 @@ $notification-bg-color: #000;
   @include content-section;
   p {
     margin-bottom:20px;
+    width: 78vw;
   }
   background-color:#ece9e6;
   img {
     width: 100%;
     height: auto;
+  }
+}
+
+.about-content-section {
+  @include content-section;
+  h2{
+    font-size: 1.7em;
+    margin: 40px 30px 20px 30px;
+  }
+  p {
+    margin-bottom:20px;
+    width: 78vw;
+  }
+}
+.features-content-section{
+  @include content-section;
+   h2{
+    font-size: 1.7em;
+    margin: 40px 30px 20px 30px;
+  }
+  p {
+    margin-bottom:20px;
+    width: 78vw;
   }
 }
 
