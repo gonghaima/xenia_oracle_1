@@ -33,7 +33,7 @@ export default ({ header }) => {
                     </div> */}
                 </div>
             </section>
-            <section className="sub-head-section">
+            <section className="features-content-section">
                 <h2>Technology you can trust</h2>
                 <p>
                     <i>

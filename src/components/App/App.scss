@@ -235,7 +235,12 @@ $notification-bg-color: #000;
 
 .head-section-features {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
-    url(../../images/xenia-head-img-features.png);
+    url(../../images/xenia-head-img-features.jpg);
+  @include head-section-mix;
+}
+
+.head-section-about {
+  background: url(../../images/xenia-head-img-about.jpg);
   @include head-section-mix;
 }
 
@@ -267,11 +272,36 @@ $notification-bg-color: #000;
   @include content-section;
   p {
     margin-bottom:20px;
+    width: 78vw;
   }
   background-color:#ece9e6;
   img {
     width: 100%;
     height: auto;
+  }
+}
+
+.about-content-section {
+  @include content-section;
+  h2{
+    font-size: 1.7em;
+    margin: 40px 30px 20px 30px;
+  }
+  p {
+    margin-bottom:20px;
+    width: 78vw;
+    text-align: justify;
+  }
+}
+.features-content-section{
+  @include content-section;
+   h2{
+    font-size: 1.7em;
+    margin: 40px 30px 20px 30px;
+  }
+  p {
+    margin-bottom:20px;
+    width: 78vw;
   }
 }
 

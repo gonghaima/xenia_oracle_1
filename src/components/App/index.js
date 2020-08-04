@@ -5,6 +5,7 @@ import logo from '../../images/xenia.png';
 import { Router, Link } from '@reach/router';
 import Home from '../Home';
 import Features from '../Features';
+import About from '../About';
 
 
 
@@ -31,7 +32,7 @@ export default () => {
 
           <Link to="/">Home</Link>
           <Link to="/features">Features & Benefits</Link>
-          <Link to="/">About us</Link>
+          <Link to="/about">About us</Link>
           <Link to="/">Services</Link>
           <Link to="/">FAQ'S</Link>
           <Link to="/">Contact</Link>
@@ -46,6 +47,7 @@ export default () => {
       <Router>
         <Home path="/" header={header} />
         <Features path="/features" header={header} />
+        <About path="/about" header={header} />
       </Router>
 
 
