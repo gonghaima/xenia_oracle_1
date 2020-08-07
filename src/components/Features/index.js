@@ -5,9 +5,9 @@ import whatIsHotelPMS from '../../images/hotel-what-is-hotel-pms.jpg';
 import hotelManagement from '../../images/hotel-management-simplified.png';
 import featuresImg from '../../images/features.jpg';
 import b1Img from '../../images/benefits/b1.png';
-import b2Img from '../../images/benefits/b2.png';
-import b3Img from '../../images/benefits/b3.png';
-import b4Img from '../../images/benefits/b4.png';
+
+
+import f1Img from '../../images/features/feature-1.jpg';
 
 export default ({ header }) => {
     const [main, setMain] = useState();
@@ -27,10 +27,6 @@ export default ({ header }) => {
             <section className="head-section-features">
                 <div className="head-section-content">
                     <h2>Xenia Suite Features</h2>
-                    {/* <p>{header && header.Subtitle}</p>
-                    <div className="hero-button-container">
-                        <button>{header && header.ButtonText}</button>
-                    </div> */}
                 </div>
             </section>
             <section className="features-content-section">
@@ -45,61 +41,35 @@ export default ({ header }) => {
                 </p>
                 <h4>Debbie Horncastle, General Manager Pavilions Hotel Christchurch, New Zealand</h4>
             </section>
-            {/* <section className="feature-section">
-                <img alt="main-img" src={featuresImg} />
-                <h2>The Benefits of Xenia Suite for you</h2>
-                <p>Your customer’s journey begins before they’ve stepped into your hotel. From their initial booking interaction, on-site welcome, in-room experience, to their post-stay reflection; every step counts towards your customer’s satisfaction and ultimately determines their repeat business.</p>
-                <p>Investing in your personalised guest experience will in turn increase your customer loyalty. Xenia Suite offers many benefits for hotelier’s including: </p>
-            </section>
-            <section className="main-section">
+            <section className="main-section-features">
                 <div className="side">
-                    <img alt="b1-img" src={b1Img} />
+                    <img alt="f1-img" src={f1Img} />
                 </div>
                 <main>
-                    <h3>Enhanced check-in/check-out capabilities</h3>
-                    <p>empower your guests through the Xenia Suite mobile app. Guests can manage self-check-in / check-out, receive and send alerts for delays and emergencies; and manage their booking preferences through a touch of a button.</p>
-                    <div className="learn-more-button-container">
-                        <button>FIND OUT MORE</button>
-                    </div>
+                    <h4>User-friendly systems</h4>
+                    <p>Xenia Suite is designed to make your life easier. We have made our system easy to
+                    implement and use, so you and your team can focus on keeping your guests happy.
+                    You and your team will benefit from:
+                    </p>
+                    <ul>
+                        <li>
+                            Easy to navigate dashboards with colour coding and task automation.
+                        </li>
+                        <li>
+                            A reminder system to prompt certain tasks and or guest requests.
+                        </li>
+                        <li>
+                            Clear team communication through our fully integrated system to ensure business continuity during shift changes.
+                        </li>
+                        <li>
+                            Front and back end development for real time reporting and automatic stock replenishment.
+                        </li>
+                        <li>
+                            Training from the Xenia Suite team, and 24/7 access to our online knowledge database and instructional videos.
+                        </li>
+                    </ul>
                 </main>
             </section>
-            <section className="main-section">
-                <div className="side">
-                    <img alt="b2-img" src={b2Img} />
-                </div>
-                <main>
-                    <h3>Improved housekeeping service</h3>
-                    <p>monitor performance, rostering and ensure rooms are clean and in perfect condition. Enjoy greater flexibility with room-service tasks and maintenance needs with our automated software.</p>
-                    <div className="learn-more-button-container">
-                        <button>FIND OUT MORE</button>
-                    </div>
-                </main>
-            </section>
-            <section className="main-section">
-                <div className="side">
-                    <img alt="b3-img" src={b3Img} />
-                </div>
-                <main>
-                    <h3>Integrated hotel back-office systems</h3>
-                    <p>connect operations and financial processes including full accounting, balance sheets, cash and inventory management, and with instant cashflow visibility.</p>
-                    <div className="learn-more-button-container">
-                        <button>FIND OUT MORE</button>
-                    </div>
-                </main>
-            </section>
-            <section className="main-section">
-                <div className="side">
-                    <img alt="b4-img" src={b4Img} />
-                </div>
-                <main>
-                    <h3>Centralised customer data</h3>
-                    <p>improve the quality and accuracy of your guest profiles with reporting and analytics. Understand your customer buying patterns so you can create targeted packages, services and marketing campaigns with ease.</p>
-                    <div className="learn-more-button-container">
-                        <button>FIND OUT MORE</button>
-                    </div>
-                </main>
-            </section> */}
-
         </>
     )
 }

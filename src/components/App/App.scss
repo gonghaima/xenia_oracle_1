@@ -465,7 +465,7 @@ nav {
   }
 }
 
-.main-section {
+@mixin main-section-mix {
   background-color: $fourth-background;
   padding-top: 2.5em;
   padding-bottom: 3.5em;
@@ -560,6 +560,32 @@ nav {
     a {
       @include anchor-type-1;
       font-size: 0.9rem;
+    }
+  }
+}
+
+.main-section {
+  @include main-section-mix;
+}
+
+.main-section-features {
+  @include main-section-mix;
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    p {
+      margin: 1em 0em 1em 0em;
+      font-size: 0.8rem;
+    }
+    ul {
+      list-style-position: outside;
+      margin-left: 1em;
+      color: $fourth-font-color;
+      font-weight: 400;
+      margin: 0 0 1.1em 1.2em;
+      line-height: 1.55;
+      font-size: 0.8rem;
     }
   }
 }
