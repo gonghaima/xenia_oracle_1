@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/xenia_oracle_1/static/css/main.16641222.chunk.css",
-    "main.js": "/xenia_oracle_1/static/js/main.cd6a280e.chunk.js",
-    "main.js.map": "/xenia_oracle_1/static/js/main.cd6a280e.chunk.js.map",
+    "main.css": "/xenia_oracle_1/static/css/main.2639401b.chunk.css",
+    "main.js": "/xenia_oracle_1/static/js/main.550e40f2.chunk.js",
+    "main.js.map": "/xenia_oracle_1/static/js/main.550e40f2.chunk.js.map",
     "runtime-main.js": "/xenia_oracle_1/static/js/runtime-main.842d8e57.js",
     "runtime-main.js.map": "/xenia_oracle_1/static/js/runtime-main.842d8e57.js.map",
     "static/css/2.06565635.chunk.css": "/xenia_oracle_1/static/css/2.06565635.chunk.css",
-    "static/js/2.c0096503.chunk.js": "/xenia_oracle_1/static/js/2.c0096503.chunk.js",
-    "static/js/2.c0096503.chunk.js.map": "/xenia_oracle_1/static/js/2.c0096503.chunk.js.map",
+    "static/js/2.673cd474.chunk.js": "/xenia_oracle_1/static/js/2.673cd474.chunk.js",
+    "static/js/2.673cd474.chunk.js.map": "/xenia_oracle_1/static/js/2.673cd474.chunk.js.map",
     "index.html": "/xenia_oracle_1/index.html",
-    "precache-manifest.a818675fc15845ee2e96465686ffbc9d.js": "/xenia_oracle_1/precache-manifest.a818675fc15845ee2e96465686ffbc9d.js",
+    "precache-manifest.5ba609735ac04c5a3c637119c13cea32.js": "/xenia_oracle_1/precache-manifest.5ba609735ac04c5a3c637119c13cea32.js",
     "service-worker.js": "/xenia_oracle_1/service-worker.js",
     "static/css/2.06565635.chunk.css.map": "/xenia_oracle_1/static/css/2.06565635.chunk.css.map",
-    "static/css/main.16641222.chunk.css.map": "/xenia_oracle_1/static/css/main.16641222.chunk.css.map",
-    "static/js/2.c0096503.chunk.js.LICENSE": "/xenia_oracle_1/static/js/2.c0096503.chunk.js.LICENSE",
+    "static/css/main.2639401b.chunk.css.map": "/xenia_oracle_1/static/css/main.2639401b.chunk.css.map",
+    "static/js/2.673cd474.chunk.js.LICENSE": "/xenia_oracle_1/static/js/2.673cd474.chunk.js.LICENSE",
     "static/media/b1.png": "/xenia_oracle_1/static/media/b1.ca145154.png",
     "static/media/b2.png": "/xenia_oracle_1/static/media/b2.660728f2.png",
     "static/media/b3.png": "/xenia_oracle_1/static/media/b3.7b5f7f3c.png",
     "static/media/b4.png": "/xenia_oracle_1/static/media/b4.084e7243.png",
+    "static/media/feature-1.jpg": "/xenia_oracle_1/static/media/feature-1.ab9829dd.jpg",
     "static/media/features.jpg": "/xenia_oracle_1/static/media/features.658fa107.jpg",
     "static/media/App.scss": "/xenia_oracle_1/static/media/xenia-head-img.790eeead.png",
     "static/media/hotel-management-simplified.png": "/xenia_oracle_1/static/media/hotel-management-simplified.0178e91f.png",
@@ -28,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.842d8e57.js",
     "static/css/2.06565635.chunk.css",
-    "static/js/2.c0096503.chunk.js",
-    "static/css/main.16641222.chunk.css",
-    "static/js/main.cd6a280e.chunk.js"
+    "static/js/2.673cd474.chunk.js",
+    "static/css/main.2639401b.chunk.css",
+    "static/js/main.550e40f2.chunk.js"
   ]
 }
