@@ -55,7 +55,7 @@ export default ({ header }) => {
                     <img alt="b1-img" src={b1Img} />
                 </div>
                 <main>
-                    <h3>Enhanced check-in/check-out capabilities</h3>
+                    <h4>Enhanced check-in/check-out capabilities</h4>
                     <p>empower your guests through the Xenia Suite mobile app. Guests can manage self-check-in / check-out, receive and send alerts for delays and emergencies; and manage their booking preferences through a touch of a button.</p>
                     <div className="learn-more-button-container">
                         <button>FIND OUT MORE</button>
@@ -67,7 +67,7 @@ export default ({ header }) => {
                     <img alt="b2-img" src={b2Img} />
                 </div>
                 <main>
-                    <h3>Improved housekeeping service</h3>
+                    <h4>Improved housekeeping service</h4>
                     <p>monitor performance, rostering and ensure rooms are clean and in perfect condition. Enjoy greater flexibility with room-service tasks and maintenance needs with our automated software.</p>
                     <div className="learn-more-button-container">
                         <button>FIND OUT MORE</button>
@@ -79,7 +79,7 @@ export default ({ header }) => {
                     <img alt="b3-img" src={b3Img} />
                 </div>
                 <main>
-                    <h3>Integrated hotel back-office systems</h3>
+                    <h4>Integrated hotel back-office systems</h4>
                     <p>connect operations and financial processes including full accounting, balance sheets, cash and inventory management, and with instant cashflow visibility.</p>
                     <div className="learn-more-button-container">
                         <button>FIND OUT MORE</button>
@@ -91,7 +91,7 @@ export default ({ header }) => {
                     <img alt="b4-img" src={b4Img} />
                 </div>
                 <main>
-                    <h3>Centralised customer data</h3>
+                    <h4>Centralised customer data</h4>
                     <p>improve the quality and accuracy of your guest profiles with reporting and analytics. Understand your customer buying patterns so you can create targeted packages, services and marketing campaigns with ease.</p>
                     <div className="learn-more-button-container">
                         <button>FIND OUT MORE</button>
