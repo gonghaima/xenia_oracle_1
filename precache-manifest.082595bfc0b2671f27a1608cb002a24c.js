@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "75fcd37f7fbb082ddd98be451be77efd",
+    "revision": "77ff6525aa9a2e6e0ccdf215f763eaff",
     "url": "/xenia_oracle_1/index.html"
   },
   {
-    "revision": "ab1bdb964e1825b3d2df",
+    "revision": "4d8dd1ecd465efe1d506",
     "url": "/xenia_oracle_1/static/css/2.06565635.chunk.css"
   },
   {
-    "revision": "5378b4073ed51ba5e2a0",
+    "revision": "b3f66eeffcffe0aef2e0",
     "url": "/xenia_oracle_1/static/css/main.017b4099.chunk.css"
   },
   {
-    "revision": "ab1bdb964e1825b3d2df",
-    "url": "/xenia_oracle_1/static/js/2.673cd474.chunk.js"
+    "revision": "4d8dd1ecd465efe1d506",
+    "url": "/xenia_oracle_1/static/js/2.2fba30d8.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/xenia_oracle_1/static/js/2.673cd474.chunk.js.LICENSE"
+    "url": "/xenia_oracle_1/static/js/2.2fba30d8.chunk.js.LICENSE"
   },
   {
-    "revision": "5378b4073ed51ba5e2a0",
-    "url": "/xenia_oracle_1/static/js/main.0fa94d2b.chunk.js"
+    "revision": "b3f66eeffcffe0aef2e0",
+    "url": "/xenia_oracle_1/static/js/main.6bb9fe7a.chunk.js"
   },
   {
     "revision": "b374916e8c2da8203964",
@@ -46,6 +46,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ab9829dddfb871779f73475c676dff35",
     "url": "/xenia_oracle_1/static/media/feature-1.ab9829dd.jpg"
+  },
+  {
+    "revision": "6213f4a1e28042c4940bdba6ee843cfb",
+    "url": "/xenia_oracle_1/static/media/feature-2.6213f4a1.jpg"
+  },
+  {
+    "revision": "7132b07f9cd0d382c11841e220a3dc1d",
+    "url": "/xenia_oracle_1/static/media/feature-3.7132b07f.jpg"
+  },
+  {
+    "revision": "05afe2a2261edb5d142005d4229169dc",
+    "url": "/xenia_oracle_1/static/media/feature-4.05afe2a2.jpg"
+  },
+  {
+    "revision": "b9367f46208817158ef0873d6789ab83",
+    "url": "/xenia_oracle_1/static/media/feature-5.b9367f46.jpg"
+  },
+  {
+    "revision": "3b53182f54c4c72b206ee4e35943b8e9",
+    "url": "/xenia_oracle_1/static/media/feature-6.3b53182f.jpg"
   },
   {
     "revision": "658fa107fd8dff465a495ba7a75584a8",
