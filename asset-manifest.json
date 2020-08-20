@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/xenia_oracle_1/static/css/main.017b4099.chunk.css",
-    "main.js": "/xenia_oracle_1/static/js/main.29c87662.chunk.js",
-    "main.js.map": "/xenia_oracle_1/static/js/main.29c87662.chunk.js.map",
+    "main.css": "/xenia_oracle_1/static/css/main.dfa75dc9.chunk.css",
+    "main.js": "/xenia_oracle_1/static/js/main.e709c6f5.chunk.js",
+    "main.js.map": "/xenia_oracle_1/static/js/main.e709c6f5.chunk.js.map",
     "runtime-main.js": "/xenia_oracle_1/static/js/runtime-main.842d8e57.js",
     "runtime-main.js.map": "/xenia_oracle_1/static/js/runtime-main.842d8e57.js.map",
     "static/css/2.06565635.chunk.css": "/xenia_oracle_1/static/css/2.06565635.chunk.css",
-    "static/js/2.2fba30d8.chunk.js": "/xenia_oracle_1/static/js/2.2fba30d8.chunk.js",
-    "static/js/2.2fba30d8.chunk.js.map": "/xenia_oracle_1/static/js/2.2fba30d8.chunk.js.map",
+    "static/js/2.3fa0ceb2.chunk.js": "/xenia_oracle_1/static/js/2.3fa0ceb2.chunk.js",
+    "static/js/2.3fa0ceb2.chunk.js.map": "/xenia_oracle_1/static/js/2.3fa0ceb2.chunk.js.map",
     "index.html": "/xenia_oracle_1/index.html",
-    "precache-manifest.facef14bc8e08cc0077f2f790c812791.js": "/xenia_oracle_1/precache-manifest.facef14bc8e08cc0077f2f790c812791.js",
+    "precache-manifest.4bdb3ff72d4a52c8598e91a447e71697.js": "/xenia_oracle_1/precache-manifest.4bdb3ff72d4a52c8598e91a447e71697.js",
     "service-worker.js": "/xenia_oracle_1/service-worker.js",
     "static/css/2.06565635.chunk.css.map": "/xenia_oracle_1/static/css/2.06565635.chunk.css.map",
-    "static/css/main.017b4099.chunk.css.map": "/xenia_oracle_1/static/css/main.017b4099.chunk.css.map",
-    "static/js/2.2fba30d8.chunk.js.LICENSE": "/xenia_oracle_1/static/js/2.2fba30d8.chunk.js.LICENSE",
+    "static/css/main.dfa75dc9.chunk.css.map": "/xenia_oracle_1/static/css/main.dfa75dc9.chunk.css.map",
+    "static/js/2.3fa0ceb2.chunk.js.LICENSE": "/xenia_oracle_1/static/js/2.3fa0ceb2.chunk.js.LICENSE",
+    "static/media/all-hands.jpg": "/xenia_oracle_1/static/media/all-hands.26a629fa.jpg",
     "static/media/b1.png": "/xenia_oracle_1/static/media/b1.ca145154.png",
     "static/media/b2.png": "/xenia_oracle_1/static/media/b2.660728f2.png",
     "static/media/b3.png": "/xenia_oracle_1/static/media/b3.7b5f7f3c.png",
@@ -34,8 +35,8 @@
   "entrypoints": [
     "static/js/runtime-main.842d8e57.js",
     "static/css/2.06565635.chunk.css",
-    "static/js/2.2fba30d8.chunk.js",
-    "static/css/main.017b4099.chunk.css",
-    "static/js/main.29c87662.chunk.js"
+    "static/js/2.3fa0ceb2.chunk.js",
+    "static/css/main.dfa75dc9.chunk.css",
+    "static/js/main.e709c6f5.chunk.js"
   ]
 }
