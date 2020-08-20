@@ -244,7 +244,12 @@ $notification-bg-color: #000;
 }
 
 .head-section-about {
-  background: url(../../images/xenia-head-img-about.jpg);
+  background: url(../../images/about/xenia-head-img-about.jpg);
+  @include head-section-mix;
+}
+
+.head-section-about-all-hands {
+  background: url(../../images/about/all-hands.jpg);
   @include head-section-mix;
 }
 
