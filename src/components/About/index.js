@@ -75,7 +75,7 @@ export default ({ header }) => {
                         home.
                     </p>
                     <div className="learn-more-button-container">
-                        <button>FIND OUT MORE</button>
+                        <button>Contact Jessie</button>
                     </div>
                 </main>
             </section>
