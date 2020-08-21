@@ -613,6 +613,30 @@ nav {
   }
 }
 
+.main-section-about {
+  @include main-section-mix;
+    main {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      p {
+        margin: 1em 0em 1em 0em;
+      }    
+      .learn-more-button-container{
+        padding: 0;
+      }
+    }
+    img {
+      width: 80%;
+    }
+    .side{
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+}
+
 .footer-section {
   padding: 2em;
   display: block;

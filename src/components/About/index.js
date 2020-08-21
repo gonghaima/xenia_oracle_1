@@ -1,11 +1,11 @@
 
 import React, { useEffect, useState } from 'react';
+import jessieImg from '../../images/about/jessie.png';
 
 import whatIsHotelPMS from '../../images/hotel-what-is-hotel-pms.jpg';
 import hotelManagement from '../../images/hotel-management-simplified.png';
 import featuresImg from '../../images/features.jpg';
 import b1Img from '../../images/benefits/b1.png';
-import b2Img from '../../images/benefits/b2.png';
 import b3Img from '../../images/benefits/b3.png';
 import allHands from '../../images/about/all-hands.jpg';
 
@@ -58,6 +58,26 @@ export default ({ header }) => {
                     integrated software system. Xenia Suites 18 years’ proven history of performance has adapted with the rapidly changing face of
                     technology and hospitality’s requirements here in New Zealand, across the Tasman and the Pacific.
                 </p>
+            </section>
+            <section className="main-section-about">
+                <div className="side">
+                    <img alt="jessie-img" src={jessieImg} />
+                </div>
+                <main>
+                    <h4>Jessie Homewood - Xenia Suite Managing Director</h4>
+                    <p>
+                        Leading the Xenia Suite team is Jessie Homewood. Jessie has over 35 years in software system sales and implementation. Through her work with hotels over the years, Jessie identified a need to provide a seamless, and cost effective hotel management ERP system for hotels in New Zealand and Australia and as such, in 2002, Jessie developed and launched Xenia Suite.
+                    </p>
+                    <p>
+                        Jessie is passionate about making technology work for people rather than people work
+                        for technology, and ensures her team enjoy coming to work each day. When Jessie isn’t
+                        busy helping her customers, you will find her creating new things in her workshop at
+                        home.
+                    </p>
+                    <div className="learn-more-button-container">
+                        <button>Contact Jessie</button>
+                    </div>
+                </main>
             </section>
         </>
     )
