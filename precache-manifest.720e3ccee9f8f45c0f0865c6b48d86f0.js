@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "986c18bf276491feb0236fb28be916ee",
+    "revision": "83a2c4d6dc5205094a8b41532722921d",
     "url": "/xenia_oracle_1/index.html"
   },
   {
-    "revision": "62e03d3f90e1ce4eef26",
+    "revision": "92111b22a11e0e89ad66",
     "url": "/xenia_oracle_1/static/css/2.06565635.chunk.css"
   },
   {
-    "revision": "58cc2ed9638e073c8a1f",
-    "url": "/xenia_oracle_1/static/css/main.dfa75dc9.chunk.css"
+    "revision": "9778b45f72303024e885",
+    "url": "/xenia_oracle_1/static/css/main.74cf8188.chunk.css"
   },
   {
-    "revision": "62e03d3f90e1ce4eef26",
-    "url": "/xenia_oracle_1/static/js/2.3fa0ceb2.chunk.js"
+    "revision": "92111b22a11e0e89ad66",
+    "url": "/xenia_oracle_1/static/js/2.0099e89e.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/xenia_oracle_1/static/js/2.3fa0ceb2.chunk.js.LICENSE"
+    "url": "/xenia_oracle_1/static/js/2.0099e89e.chunk.js.LICENSE"
   },
   {
-    "revision": "58cc2ed9638e073c8a1f",
-    "url": "/xenia_oracle_1/static/js/main.e709c6f5.chunk.js"
+    "revision": "9778b45f72303024e885",
+    "url": "/xenia_oracle_1/static/js/main.e57635fd.chunk.js"
   },
   {
     "revision": "b374916e8c2da8203964",
@@ -86,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "aecbcb6b7dbb99b45fa861f50d7dbb85",
     "url": "/xenia_oracle_1/static/media/hotel-what-is-hotel-pms.aecbcb6b.jpg"
+  },
+  {
+    "revision": "e75ef68e6e6a1f74f18db2f325570318",
+    "url": "/xenia_oracle_1/static/media/jessie.e75ef68e.png"
   },
   {
     "revision": "9676248c814284a542916c203b134158",

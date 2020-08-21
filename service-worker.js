@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/xenia_oracle_1/precache-manifest.4bdb3ff72d4a52c8598e91a447e71697.js"
+  "/xenia_oracle_1/precache-manifest.720e3ccee9f8f45c0f0865c6b48d86f0.js"
 );
 
 self.addEventListener('message', (event) => {
