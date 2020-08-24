@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/xenia_oracle_1/static/css/main.74cf8188.chunk.css",
-    "main.js": "/xenia_oracle_1/static/js/main.c9e1322f.chunk.js",
-    "main.js.map": "/xenia_oracle_1/static/js/main.c9e1322f.chunk.js.map",
+    "main.css": "/xenia_oracle_1/static/css/main.63c519de.chunk.css",
+    "main.js": "/xenia_oracle_1/static/js/main.c2cf1966.chunk.js",
+    "main.js.map": "/xenia_oracle_1/static/js/main.c2cf1966.chunk.js.map",
     "runtime-main.js": "/xenia_oracle_1/static/js/runtime-main.842d8e57.js",
     "runtime-main.js.map": "/xenia_oracle_1/static/js/runtime-main.842d8e57.js.map",
     "static/css/2.06565635.chunk.css": "/xenia_oracle_1/static/css/2.06565635.chunk.css",
     "static/js/2.0099e89e.chunk.js": "/xenia_oracle_1/static/js/2.0099e89e.chunk.js",
     "static/js/2.0099e89e.chunk.js.map": "/xenia_oracle_1/static/js/2.0099e89e.chunk.js.map",
     "index.html": "/xenia_oracle_1/index.html",
-    "precache-manifest.5a9af6a86f44d384d481d4e1cf861a92.js": "/xenia_oracle_1/precache-manifest.5a9af6a86f44d384d481d4e1cf861a92.js",
+    "precache-manifest.99cee965c29a4c874bfc249d72973eac.js": "/xenia_oracle_1/precache-manifest.99cee965c29a4c874bfc249d72973eac.js",
     "service-worker.js": "/xenia_oracle_1/service-worker.js",
     "static/css/2.06565635.chunk.css.map": "/xenia_oracle_1/static/css/2.06565635.chunk.css.map",
-    "static/css/main.74cf8188.chunk.css.map": "/xenia_oracle_1/static/css/main.74cf8188.chunk.css.map",
+    "static/css/main.63c519de.chunk.css.map": "/xenia_oracle_1/static/css/main.63c519de.chunk.css.map",
     "static/js/2.0099e89e.chunk.js.LICENSE": "/xenia_oracle_1/static/js/2.0099e89e.chunk.js.LICENSE",
     "static/media/all-hands.jpg": "/xenia_oracle_1/static/media/all-hands.26a629fa.jpg",
     "static/media/b1.png": "/xenia_oracle_1/static/media/b1.ca145154.png",
@@ -29,7 +29,7 @@
     "static/media/App.scss": "/xenia_oracle_1/static/media/xenia-head-img.790eeead.png",
     "static/media/hotel-management-simplified.png": "/xenia_oracle_1/static/media/hotel-management-simplified.0178e91f.png",
     "static/media/hotel-what-is-hotel-pms.jpg": "/xenia_oracle_1/static/media/hotel-what-is-hotel-pms.aecbcb6b.jpg",
-    "static/media/jessie.png": "/xenia_oracle_1/static/media/jessie.e75ef68e.png",
+    "static/media/jessie.png": "/xenia_oracle_1/static/media/jessie.be93a3d2.png",
     "static/media/oracle-cloud.jpg": "/xenia_oracle_1/static/media/oracle-cloud.9676248c.jpg",
     "static/media/xenia.png": "/xenia_oracle_1/static/media/xenia.fd5030ae.png"
   },
@@ -37,7 +37,7 @@
     "static/js/runtime-main.842d8e57.js",
     "static/css/2.06565635.chunk.css",
     "static/js/2.0099e89e.chunk.js",
-    "static/css/main.74cf8188.chunk.css",
-    "static/js/main.c9e1322f.chunk.js"
+    "static/css/main.63c519de.chunk.css",
+    "static/js/main.c2cf1966.chunk.js"
   ]
 }

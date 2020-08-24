@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "31dcb89dc99480a132babadc32d1989e",
+    "revision": "42d9ef063d871f7a4d0769e996852088",
     "url": "/xenia_oracle_1/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xenia_oracle_1/static/css/2.06565635.chunk.css"
   },
   {
-    "revision": "a5b8651a7243fdf667cf",
-    "url": "/xenia_oracle_1/static/css/main.74cf8188.chunk.css"
+    "revision": "3cb7e8d1eb45930dad71",
+    "url": "/xenia_oracle_1/static/css/main.63c519de.chunk.css"
   },
   {
     "revision": "92111b22a11e0e89ad66",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xenia_oracle_1/static/js/2.0099e89e.chunk.js.LICENSE"
   },
   {
-    "revision": "a5b8651a7243fdf667cf",
-    "url": "/xenia_oracle_1/static/js/main.c9e1322f.chunk.js"
+    "revision": "3cb7e8d1eb45930dad71",
+    "url": "/xenia_oracle_1/static/js/main.c2cf1966.chunk.js"
   },
   {
     "revision": "b374916e8c2da8203964",
@@ -88,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xenia_oracle_1/static/media/hotel-what-is-hotel-pms.aecbcb6b.jpg"
   },
   {
-    "revision": "e75ef68e6e6a1f74f18db2f325570318",
-    "url": "/xenia_oracle_1/static/media/jessie.e75ef68e.png"
+    "revision": "be93a3d2be0d7e9c85e952a67a7b462c",
+    "url": "/xenia_oracle_1/static/media/jessie.be93a3d2.png"
   },
   {
     "revision": "9676248c814284a542916c203b134158",
