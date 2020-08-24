@@ -637,6 +637,15 @@ nav {
     }
 }
 
+.main-content-section-about-quotation{
+  @include content-section;
+  p {
+    margin-bottom:20px;
+    width: 78vw;
+  }
+  margin: 5vw;
+}
+
 .footer-section {
   padding: 2em;
   display: block;

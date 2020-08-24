@@ -79,6 +79,14 @@ export default ({ header }) => {
                     </div>
                 </main>
             </section>
+            <section className="main-content-section-about-quotation">
+                <p>
+                    <i>
+                        “I got more value out of my first hour and a half with Jessie than in four years with my previous supplier.”
+                    </i>
+                </p>
+                <h4>Mark Mischefski, CEO of Expol Insulation</h4>
+            </section>
         </>
     )
 }
