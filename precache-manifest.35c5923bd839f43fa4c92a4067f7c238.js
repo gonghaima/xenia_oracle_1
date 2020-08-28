@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "42d9ef063d871f7a4d0769e996852088",
+    "revision": "99af2e3b759bce4bc69bd1f991521f25",
     "url": "/xenia_oracle_1/index.html"
   },
   {
-    "revision": "92111b22a11e0e89ad66",
+    "revision": "793e857db9efd2ee804c",
     "url": "/xenia_oracle_1/static/css/2.06565635.chunk.css"
   },
   {
-    "revision": "3cb7e8d1eb45930dad71",
-    "url": "/xenia_oracle_1/static/css/main.63c519de.chunk.css"
+    "revision": "86996e1fe2268dd2276d",
+    "url": "/xenia_oracle_1/static/css/main.efdd3095.chunk.css"
   },
   {
-    "revision": "92111b22a11e0e89ad66",
-    "url": "/xenia_oracle_1/static/js/2.0099e89e.chunk.js"
+    "revision": "793e857db9efd2ee804c",
+    "url": "/xenia_oracle_1/static/js/2.22cb0bd6.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/xenia_oracle_1/static/js/2.0099e89e.chunk.js.LICENSE"
+    "url": "/xenia_oracle_1/static/js/2.22cb0bd6.chunk.js.LICENSE"
   },
   {
-    "revision": "3cb7e8d1eb45930dad71",
-    "url": "/xenia_oracle_1/static/js/main.c2cf1966.chunk.js"
+    "revision": "86996e1fe2268dd2276d",
+    "url": "/xenia_oracle_1/static/js/main.9c6174f5.chunk.js"
   },
   {
     "revision": "b374916e8c2da8203964",
@@ -86,6 +86,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "aecbcb6b7dbb99b45fa861f50d7dbb85",
     "url": "/xenia_oracle_1/static/media/hotel-what-is-hotel-pms.aecbcb6b.jpg"
+  },
+  {
+    "revision": "c915cf8695afdde798062ddb86fcdb4c",
+    "url": "/xenia_oracle_1/static/media/icon1.c915cf86.jpg"
+  },
+  {
+    "revision": "03853f82d98d3ff24c0fcba31613f22d",
+    "url": "/xenia_oracle_1/static/media/icon2.03853f82.jpg"
+  },
+  {
+    "revision": "2277bf0439439cc224e962c8bb4785c6",
+    "url": "/xenia_oracle_1/static/media/icon3.2277bf04.jpg"
+  },
+  {
+    "revision": "0283f99ece277ae93302bf444529549e",
+    "url": "/xenia_oracle_1/static/media/icon4.0283f99e.jpg"
   },
   {
     "revision": "be93a3d2be0d7e9c85e952a67a7b462c",
