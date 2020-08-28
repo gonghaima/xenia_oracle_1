@@ -1,6 +1,10 @@
 
 import React, { useEffect, useState } from 'react';
 import jessieImg from '../../images/about/jessie.png';
+import icon1 from '../../images/about/icon1.jpg';
+import icon2 from '../../images/about/icon2.jpg';
+import icon3 from '../../images/about/icon3.jpg';
+import icon4 from '../../images/about/icon4.jpg';
 
 import whatIsHotelPMS from '../../images/hotel-what-is-hotel-pms.jpg';
 import hotelManagement from '../../images/hotel-management-simplified.png';
@@ -86,6 +90,78 @@ export default ({ header }) => {
                     </i>
                 </p>
                 <h4>Mark Mischefski, CEO of Expol Insulation</h4>
+            </section>
+            <section className="main-section-about">
+                <div className="side">
+                    <img className="icon" alt="jessie-img" src={icon1} />
+                </div>
+                <main>
+                    <h4>Consulting and Implementation Team</h4>
+                    <p>
+                        Our team of Xenia Suite consultants engage with you to define and document your
+                        specific business and operational requirements and configure Xenia Suite
+                        appropriately. They are responsible for implementing the system and then training your
+                        team to run Xenia Suite effectively and independently.
+                    </p>
+                    <div className="learn-more-button-container">
+                        <button>Contact Us</button>
+                    </div>
+                </main>
+            </section>
+            <section className="main-section-about">
+                <div className="side">
+                    <img className="icon" alt="jessie-img" src={icon2} />
+                </div>
+                <main>
+                    <h4>Service and Help-Desk Support Team</h4>
+                    <p>
+                        Once you are up and running, if you have any general enquiries or need assistance with
+                        your front-end administration, our customer service and help-desk support team are here
+                        to help. They are your first point of contact when it comes to all things Xenia Suite. An
+                        integral part of the team, they will help answer your questions and provide any technical
+                        support you may need 24/7.
+                    </p>
+                    <div className="learn-more-button-container">
+                        <button>Contact Us</button>
+                    </div>
+                </main>
+            </section>
+            <section className="main-section-about">
+                <div className="side">
+                    <img className="icon" alt="jessie-img" src={icon3} />
+                </div>
+                <main>
+                    <h4>Software Development Team</h4>
+                    <p>
+                        The Xenia Suite Software Development team have extensive experience in ERP
+                        systems, point of sales, warehousing, distribution, logistics, and app development; and
+                        they enjoy providing solutions and testing new ideas to improve the Xenia Suite platform.
+                        The team also take on board any suggestions or feedback from our clients to ensure
+                        we’re constantly evolving and providing you with what you need for your business.
+                    </p>
+                    <div className="learn-more-button-container">
+                        <button>Contact Us</button>
+                    </div>
+                </main>
+            </section>
+            <section className="main-section-about">
+                <div className="side">
+                    <img className="icon" alt="jessie-img" src={icon4} />
+                </div>
+                <main>
+                    <h4>Business Development &amp; Marketing Team</h4>
+                    <p>
+                        Our business development and marketing team know the importance of keeping up with
+                        industry trends and hotel guests’ increasing expectations. They are here to help you
+                        identify the needs of your business, match them to Xenia Suite’s functionality and to
+                        support your business growth. They are passionate about the solutions Xenia Suite can
+                        provide to its customers; and enjoy seeing customers implement and reap the rewards
+                        of the Xenia Suite software.
+                    </p>
+                    <div className="learn-more-button-container">
+                        <button>Contact Us</button>
+                    </div>
+                </main>
             </section>
         </>
     )
