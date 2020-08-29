@@ -642,6 +642,10 @@ nav {
 
 .main-content-section-about-quotation{
   @include content-section;
+  p, h4{
+    text-align: center;
+    font-size: 0.9em;
+  }
   p {
     margin-bottom:20px;
     width: 78vw;

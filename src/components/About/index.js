@@ -163,6 +163,14 @@ export default ({ header }) => {
                     </div>
                 </main>
             </section>
+            <section className="main-content-section-about-quotation">
+                <p>
+                    <i>
+                        "Jessie has been our IT specialist for over 10 years. She has helped us grow from a start-up company to a successful business employing close to 20 people. She deals with the day to day management of our IT side of our business and if ever we are in real strife with our IT Jess is always there to save us."
+                    </i>
+                </p>
+                <h4>Liz Murphy, Branch Manager at Property Link Groups Limited</h4>
+            </section>
         </>
     )
 }
