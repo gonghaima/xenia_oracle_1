@@ -165,6 +165,14 @@ $notification-bg-color: #000;
     }
 }
 
+.button-container {
+      @include button-container;
+      button {
+        margin: 0.3em 1em 3em 1em;
+        min-width: 18em;
+      }
+}
+
 .top-section {
   height: 60px;
   padding: 8px;
@@ -237,7 +245,7 @@ $notification-bg-color: #000;
   @include head-section-mix;
 }
 
-.head-section-features {
+.head-section-features, .head-section-faq{
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
     url(../../images/xenia-head-img-features.jpg);
   @include head-section-mix;
@@ -302,7 +310,7 @@ $notification-bg-color: #000;
     text-align: justify;
   }
 }
-.features-content-section{
+.features-content-section, .faq-content-section{
   @include content-section;
    h2{
     font-size: 1.7em;
@@ -312,6 +320,9 @@ $notification-bg-color: #000;
     margin-bottom:20px;
     width: 78vw;
   }
+}
+.faq-content-section{
+  margin-bottom: 0;
 }
 
 .notification-section{
@@ -582,6 +593,84 @@ nav {
 
 .main-section-features {
   @include main-section-mix;
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    p {
+      margin: 1em 0em 1em 0em;
+    }
+    ul {
+      list-style-position: outside;
+      margin-left: 1em;
+      color: $fourth-font-color;
+      font-weight: 400;
+      margin: 0 0 1.1em 1.2em;
+      line-height: 1.55;
+      font-size: $font-size-12;
+      li{
+        list-style: none;
+      }
+      li::before {
+        content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+        color: red; /* Change the color */
+        font-weight: bold; /* If you want it to be bold */
+        font-size: 1.5em;
+        display: inline-block; /* Needed to add space between the bullet and the text */
+        width: 1em; /* Also needed for space (tweak if needed) */
+        margin-left: -1em; /* Also needed for space (tweak if needed) */
+      }
+    }
+  }
+}
+
+.main-section-faq {
+  background-color: $fourth-background;
+  padding-top: 2.5em;
+  padding-bottom: 3.5em;
+  padding-left: 28px;
+  padding-right: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  main {
+    margin: 0 18px 18px 18px;
+    p {
+      color: $fourth-font-color;
+      font-size: $font-size-12;
+      margin: 0 0 1.1em;
+      line-height: 1.55;
+    }
+    p:last-child {
+      margin: 0;
+    }
+    .main-video,
+    .main-img {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    .learn-more-button-container {
+      @include button-container;
+      padding-bottom: 3em;
+    }
+
+    li {
+      @include general-list;
+    }
+    .content-list-container li {
+      @include general-list;
+      line-height: 1.2;
+      font-size: 0.9rem;
+    }
+    .link,
+    a {
+      @include anchor-type-1;
+      font-size: 0.9rem;
+    }
+  }
+
   main {
     display: flex;
     flex-direction: column;
