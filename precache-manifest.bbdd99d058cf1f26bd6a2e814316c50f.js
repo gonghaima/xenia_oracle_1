@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6f472bd61860a0c40db0a7f2877da3e7",
+    "revision": "55bfac126e71cf09b560d0c45422665a",
     "url": "/xenia_oracle_1/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xenia_oracle_1/static/css/2.06565635.chunk.css"
   },
   {
-    "revision": "ab94fe461454ea9ac3f5",
-    "url": "/xenia_oracle_1/static/css/main.e8ece409.chunk.css"
+    "revision": "da05fc983477453e83ee",
+    "url": "/xenia_oracle_1/static/css/main.5b16f476.chunk.css"
   },
   {
     "revision": "793e857db9efd2ee804c",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xenia_oracle_1/static/js/2.22cb0bd6.chunk.js.LICENSE"
   },
   {
-    "revision": "ab94fe461454ea9ac3f5",
-    "url": "/xenia_oracle_1/static/js/main.105e8bd2.chunk.js"
+    "revision": "da05fc983477453e83ee",
+    "url": "/xenia_oracle_1/static/js/main.f23d2471.chunk.js"
   },
   {
     "revision": "b374916e8c2da8203964",
