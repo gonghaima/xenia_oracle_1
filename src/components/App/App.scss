@@ -151,6 +151,10 @@ $notification-bg-color: #000;
   justify-content: flex-end;
 }
 
+.underline{
+  text-decoration: underline;
+}
+
 .logo{
     background: black;
     z-index: 9;
@@ -633,71 +637,24 @@ nav {
   display: flex;
   flex-flow: row wrap;
   align-items: stretch;
+  
   main {
+    width:100%;
     margin: 0 18px 18px 18px;
     p {
       color: $fourth-font-color;
       font-size: $font-size-12;
-      margin: 0 0 1.1em;
+      margin: 1em 0em 1em 0em;
       line-height: 1.55;
-    }
-    p:last-child {
-      margin: 0;
-    }
-    .main-video,
-    .main-img {
-      img {
-        width: 100%;
-        height: auto;
+      &:last-child{
+        margin: 0;
       }
     }
-    .learn-more-button-container {
-      @include button-container;
-      padding-bottom: 3em;
-    }
-
-    li {
-      @include general-list;
-    }
-    .content-list-container li {
-      @include general-list;
-      line-height: 1.2;
-      font-size: 0.9rem;
-    }
-    .link,
-    a {
-      @include anchor-type-1;
-      font-size: 0.9rem;
-    }
-  }
-
-  main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    p {
-      margin: 1em 0em 1em 0em;
-    }
-    ul {
-      list-style-position: outside;
-      margin-left: 1em;
-      color: $fourth-font-color;
-      font-weight: 400;
-      margin: 0 0 1.1em 1.2em;
-      line-height: 1.55;
-      font-size: $font-size-12;
-      li{
-        list-style: none;
-      }
-      li::before {
-        content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-        color: red; /* Change the color */
-        font-weight: bold; /* If you want it to be bold */
-        font-size: 1.5em;
-        display: inline-block; /* Needed to add space between the bullet and the text */
-        width: 1em; /* Also needed for space (tweak if needed) */
-        margin-left: -1em; /* Also needed for space (tweak if needed) */
-      }
+    h5.red{
+      color: $seventh-font-color;
     }
   }
 }

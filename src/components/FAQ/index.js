@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
-import { data } from './content';
+import { data, activities } from './content';
 
 export default ({ header }) => {
     const [main, setMain] = useState();
@@ -37,30 +37,25 @@ export default ({ header }) => {
                 {
                     data.map(d => <main><h5>{d.title}</h5><p>{d.content}</p></main>)
                 }
-                {/* <main>
-                    <h5>How easy is Xenia Suite to use?</h5>
-                    <p>
-                        Xenia Suite is designed to make your life easier. We can implement and train your team on Xenia Suite in a matter of days, taking care of the
-                        day to day so you can concentrate on what matters most.
-                    </p>
-                    <ul>
-                        <li>
-                            Easy to navigate dashboards with colour coding and task automation.
-                        </li>
-                        <li>
-                            A reminder system to prompt certain tasks and or guest requests.
-                        </li>
-                        <li>
-                            Clear team communication through our fully integrated system to ensure business continuity during shift changes.
-                        </li>
-                        <li>
-                            Front and back end development for real time reporting and automatic stock replenishment.
-                        </li>
-                        <li>
-                            Training from the Xenia Suite team, and 24/7 access to our online knowledge database and instructional videos.
-                        </li>
-                    </ul>
-                </main> */}
+                <main><h5 className="underline">What does Xenia Suite do?</h5></main>
+
+                {
+                    activities.map(activity =>
+                        <>
+                            <main><h5 className="red">{activity.heading}</h5></main>
+                            {
+                                activity.details.map(detail =>
+                                    <>
+                                        <main>
+                                            <h5>{detail.title}</h5>
+                                            <p>{detail.content}</p>
+                                        </main>
+                                    </>
+                                )
+                            }
+                        </>
+                    )
+                }
             </section>
         </>
     )
