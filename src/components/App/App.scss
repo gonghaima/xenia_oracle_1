@@ -151,6 +151,10 @@ $notification-bg-color: #000;
   justify-content: flex-end;
 }
 
+.underline{
+  text-decoration: underline;
+}
+
 .logo{
     background: black;
     z-index: 9;
@@ -163,6 +167,14 @@ $notification-bg-color: #000;
       margin-top: 37px;
       // margin-top: calc(1vw + 20px);
     }
+}
+
+.button-container {
+      @include button-container;
+      button {
+        margin: 0.3em 1em 3em 1em;
+        min-width: 18em;
+      }
 }
 
 .top-section {
@@ -237,7 +249,7 @@ $notification-bg-color: #000;
   @include head-section-mix;
 }
 
-.head-section-features {
+.head-section-features, .head-section-faq{
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
     url(../../images/xenia-head-img-features.jpg);
   @include head-section-mix;
@@ -302,7 +314,7 @@ $notification-bg-color: #000;
     text-align: justify;
   }
 }
-.features-content-section{
+.features-content-section, .faq-content-section{
   @include content-section;
    h2{
     font-size: 1.7em;
@@ -312,6 +324,9 @@ $notification-bg-color: #000;
     margin-bottom:20px;
     width: 78vw;
   }
+}
+.faq-content-section{
+  margin-bottom: 0;
 }
 
 .notification-section{
@@ -613,6 +628,37 @@ nav {
   }
 }
 
+.main-section-faq {
+  background-color: $fourth-background;
+  padding-top: 2.5em;
+  padding-bottom: 3.5em;
+  padding-left: 28px;
+  padding-right: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  
+  main {
+    width:100%;
+    margin: 0 18px 18px 18px;
+    p {
+      color: $fourth-font-color;
+      font-size: $font-size-12;
+      margin: 1em 0em 1em 0em;
+      line-height: 1.55;
+      &:last-child{
+        margin: 0;
+      }
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    h5.red{
+      color: $seventh-font-color;
+    }
+  }
+}
+
 .main-section-about {
   @include main-section-mix;
     main {
@@ -642,6 +688,10 @@ nav {
 
 .main-content-section-about-quotation{
   @include content-section;
+  p, h4{
+    text-align: center;
+    font-size: 0.9em;
+  }
   p {
     margin-bottom:20px;
     width: 78vw;

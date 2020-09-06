@@ -6,6 +6,7 @@ import { Router, Link } from '@reach/router';
 import Home from '../Home';
 import Features from '../Features';
 import About from '../About';
+import FAQ from '../FAQ';
 
 
 
@@ -34,7 +35,7 @@ export default () => {
           <Link to="/features">Features & Benefits</Link>
           <Link to="/about">About us</Link>
           <Link to="/">Services</Link>
-          <Link to="/">FAQ'S</Link>
+          <Link to="/faq">FAQ'S</Link>
           <Link to="/">Contact</Link>
         </div>
       </section>
@@ -48,6 +49,7 @@ export default () => {
         <Home path="/" header={header} />
         <Features path="/features" header={header} />
         <About path="/about" header={header} />
+        <FAQ path="/faq" header={header} />
       </Router>
 
 
