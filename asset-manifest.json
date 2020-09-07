@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/xenia_oracle_1/static/css/main.a68e0987.chunk.css",
-    "main.js": "/xenia_oracle_1/static/js/main.2211bf46.chunk.js",
-    "main.js.map": "/xenia_oracle_1/static/js/main.2211bf46.chunk.js.map",
+    "main.js": "/xenia_oracle_1/static/js/main.f78937d2.chunk.js",
+    "main.js.map": "/xenia_oracle_1/static/js/main.f78937d2.chunk.js.map",
     "runtime-main.js": "/xenia_oracle_1/static/js/runtime-main.842d8e57.js",
     "runtime-main.js.map": "/xenia_oracle_1/static/js/runtime-main.842d8e57.js.map",
     "static/css/2.06565635.chunk.css": "/xenia_oracle_1/static/css/2.06565635.chunk.css",
     "static/js/2.22cb0bd6.chunk.js": "/xenia_oracle_1/static/js/2.22cb0bd6.chunk.js",
     "static/js/2.22cb0bd6.chunk.js.map": "/xenia_oracle_1/static/js/2.22cb0bd6.chunk.js.map",
     "index.html": "/xenia_oracle_1/index.html",
-    "precache-manifest.c85bd2a7dac136f83694980e88cdf8bc.js": "/xenia_oracle_1/precache-manifest.c85bd2a7dac136f83694980e88cdf8bc.js",
+    "precache-manifest.d84b43c487eb12c75c5aa9534f15bca7.js": "/xenia_oracle_1/precache-manifest.d84b43c487eb12c75c5aa9534f15bca7.js",
     "service-worker.js": "/xenia_oracle_1/service-worker.js",
     "static/css/2.06565635.chunk.css.map": "/xenia_oracle_1/static/css/2.06565635.chunk.css.map",
     "static/css/main.a68e0987.chunk.css.map": "/xenia_oracle_1/static/css/main.a68e0987.chunk.css.map",
@@ -42,6 +42,6 @@
     "static/css/2.06565635.chunk.css",
     "static/js/2.22cb0bd6.chunk.js",
     "static/css/main.a68e0987.chunk.css",
-    "static/js/main.2211bf46.chunk.js"
+    "static/js/main.f78937d2.chunk.js"
   ]
 }
