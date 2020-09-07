@@ -64,4 +64,114 @@ export const activities = [
             }
         ]
     },
+    {
+        heading: 'Housekeeping',
+        details: [
+            {
+                title: 'Does Xenia Suite have a housekeeping system?',
+                content: 'Yes, Xenia Suite has full Housekeeping functionality and a Mobile app for your team. The app enables scheduling, late check-outs, staff monitoring and performance measurement, checklists, room status, photo attachment capability and live chat so you and the team are working in real - time.'
+            }
+        ]
+    },
+    {
+        heading: 'Minibar Mobile App',
+        details: [
+            {
+                title: 'Can the Xenia Suite Minibar App auto-charge rooms?',
+                content: 'Yes, and the app can also keep your guests notified of minibar charges via their Guest App.'
+            },
+            {
+                title: 'Does Xenia Suite offer minibar stock management?',
+                content: 'Yes, Xenia Suite has full inventory management including forward order planning, stock-outs, and damaged or out of date goods replenishment.'
+            }
+        ]
+    },
+    {
+        heading: 'Guest App and Guest Experience',
+        details: [
+            {
+                title: 'Can my guests self-check-in/check-out?',
+                content: 'Yes, if you activate this function your guest can check-in and check-out using the Xenia Guest App.'
+            },
+            {
+                title: 'Can guests create booking request?',
+                content: 'Yes, your guests are able to book their room and any additional amenities at your hotel before, during and after their stay.'
+            },
+            {
+                title: 'Can guests view their bill?',
+                content: 'Yes, your guests can view their in-room charges via the Xenia Guest app. They can also request for a bill to be emailed to them from a few clicks of a button.'
+            },
+            {
+                title: 'Can my guests view directions to the hotel on the Guest App?',
+                content: 'Yes, the Xenia Suite Guest App can be linked to Google Maps, and can also include an internal map of your hotel if that’s something you would like to offer your guests.'
+            },
+            {
+                title: 'Can we use the Xenia Suite Guest App to market to our customers?',
+                content: 'Yes, using Xenia Suite’s CRM functionality targeted marketing campaigns and a guest push facility can be added to the Xenia Suite Guest App.'
+            },
+            {
+                title: 'Can my guests book taxis and other services through the Guest App?',
+                content: 'Yes, our Guest App has the ability to offer additional amenities at your hotel, this includes taxi’s, spa’s and gym services.'
+            },
+            {
+                title: 'Can my guests book room service or book a table in my restaurant?',
+                content: 'Yes, the Xenia Suite Guest App allows your guests to book a table at your in-house restaurant or order from your room service menu.'
+            },
+            {
+                title: 'Can I include important information on the Guest App, such as the Wi-Fi code?',
+                content: 'Yes, Xenia Suite can permit guests to access information such as Wi-Fi passwords, gate/lock codes or important information that you want to ensure your guests have readily available.'
+            }
+        ]
+    },
+    {
+        heading: 'Restaurant &amp; Point-of-Sale',
+        details: [
+            {
+                title: 'Does Xenia Suite have a POS system?',
+                content: 'Yes, Xenia Suite has an integrated Restaurant and Bar POS system. This integrates with the Guest App so you and your guests have access to real- time information.'
+            },
+            {
+                title: 'Does Xenia Suite handle boutiques?',
+                content: 'Yes, Xenia Suite’s POS functionality enables you to run an -n-house boutique as well as a restaurant.'
+            },
+            {
+                title: 'Does Xenia Suite include a kitchen printer?',
+                content: 'Yes, all orders processed in the restaurant can be automatically sent through to the kitchen and printed out.'
+            }
+        ]
+    },
+    {
+        heading: 'Back-Office; Guest Data, Financial Management and Reporting',
+        details: [
+            {
+                title: 'Can Xenia Suite keep track of guests’ history and preferences?',
+                content: 'Yes, Xenia Suite can securely store guest preferences for an unlimited time period.'
+            },
+            {
+                title: 'Can Xenia Suite help with marketing campaigns?',
+                content: 'Yes, Xenia Suite has a detailed CRM function for targeted email campaigns and guest messaging.'
+            },
+            {
+                title: 'What accounting system does it need?',
+                content: 'Xenia Suite does not need a separate accounting system, as it incorporates MYOB Exo which is a fully functional ERP.'
+            },
+            {
+                title: 'Can Xenia Suite manage Fixed Assets and major Maintenance and Refurbishments?',
+                content: 'Yes, not only can we maintain full oversight through the life of all Fixed Assets but can treat major Maintenance and Refurbishments as discrete projects and provide oversight and management of all timelines and costs.'
+            }
+        ]
+    },
+    {
+        heading: 'Technical',
+        details: [
+            {
+                title: 'Does Xenia Suite integrate with other systems?',
+                content: 'Xenia Suite has a fully functional API and proven integration to Booking Engines and other partner applications. Contact us to find out more information.'
+            },
+            {
+                title: 'Can Xenia Suite help me with my night audit?',
+                content: 'Yes, absolutely. Xenia Suite is designed to save you time and effort and can complete your night audit in a matter of minutes.'
+            }
+        ]
+    },
 ];
