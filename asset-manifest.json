@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/xenia_oracle_1/static/css/main.c8a3c94a.chunk.css",
-    "main.js": "/xenia_oracle_1/static/js/main.f78937d2.chunk.js",
-    "main.js.map": "/xenia_oracle_1/static/js/main.f78937d2.chunk.js.map",
-    "runtime-main.js": "/xenia_oracle_1/static/js/runtime-main.842d8e57.js",
-    "runtime-main.js.map": "/xenia_oracle_1/static/js/runtime-main.842d8e57.js.map",
-    "static/css/2.06565635.chunk.css": "/xenia_oracle_1/static/css/2.06565635.chunk.css",
-    "static/js/2.22cb0bd6.chunk.js": "/xenia_oracle_1/static/js/2.22cb0bd6.chunk.js",
-    "static/js/2.22cb0bd6.chunk.js.map": "/xenia_oracle_1/static/js/2.22cb0bd6.chunk.js.map",
+    "main.css": "/xenia_oracle_1/static/css/main.6583d54d.chunk.css",
+    "main.js": "/xenia_oracle_1/static/js/main.d1ae89ed.chunk.js",
+    "main.js.map": "/xenia_oracle_1/static/js/main.d1ae89ed.chunk.js.map",
+    "runtime-main.js": "/xenia_oracle_1/static/js/runtime-main.313883a2.js",
+    "runtime-main.js.map": "/xenia_oracle_1/static/js/runtime-main.313883a2.js.map",
+    "static/css/2.eb43dee1.chunk.css": "/xenia_oracle_1/static/css/2.eb43dee1.chunk.css",
+    "static/js/2.03af14b7.chunk.js": "/xenia_oracle_1/static/js/2.03af14b7.chunk.js",
+    "static/js/2.03af14b7.chunk.js.map": "/xenia_oracle_1/static/js/2.03af14b7.chunk.js.map",
     "index.html": "/xenia_oracle_1/index.html",
-    "precache-manifest.e4fe935888c4930a622272c87e073afc.js": "/xenia_oracle_1/precache-manifest.e4fe935888c4930a622272c87e073afc.js",
+    "precache-manifest.23143586b7f1f2132a3746012932e33c.js": "/xenia_oracle_1/precache-manifest.23143586b7f1f2132a3746012932e33c.js",
     "service-worker.js": "/xenia_oracle_1/service-worker.js",
-    "static/css/2.06565635.chunk.css.map": "/xenia_oracle_1/static/css/2.06565635.chunk.css.map",
-    "static/css/main.c8a3c94a.chunk.css.map": "/xenia_oracle_1/static/css/main.c8a3c94a.chunk.css.map",
-    "static/js/2.22cb0bd6.chunk.js.LICENSE": "/xenia_oracle_1/static/js/2.22cb0bd6.chunk.js.LICENSE",
+    "static/css/2.eb43dee1.chunk.css.map": "/xenia_oracle_1/static/css/2.eb43dee1.chunk.css.map",
+    "static/css/main.6583d54d.chunk.css.map": "/xenia_oracle_1/static/css/main.6583d54d.chunk.css.map",
+    "static/js/2.03af14b7.chunk.js.LICENSE": "/xenia_oracle_1/static/js/2.03af14b7.chunk.js.LICENSE",
     "static/media/all-hands.jpg": "/xenia_oracle_1/static/media/all-hands.26a629fa.jpg",
     "static/media/b1.png": "/xenia_oracle_1/static/media/b1.ca145154.png",
     "static/media/b2.png": "/xenia_oracle_1/static/media/b2.660728f2.png",
@@ -38,10 +38,10 @@
     "static/media/xenia.png": "/xenia_oracle_1/static/media/xenia.fd5030ae.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.842d8e57.js",
-    "static/css/2.06565635.chunk.css",
-    "static/js/2.22cb0bd6.chunk.js",
-    "static/css/main.c8a3c94a.chunk.css",
-    "static/js/main.f78937d2.chunk.js"
+    "static/js/runtime-main.313883a2.js",
+    "static/css/2.eb43dee1.chunk.css",
+    "static/js/2.03af14b7.chunk.js",
+    "static/css/main.6583d54d.chunk.css",
+    "static/js/main.d1ae89ed.chunk.js"
   ]
 }
