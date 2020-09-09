@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e372fef3961ac6d9e9e78b2bf30bfa10",
+    "revision": "ca4ad5cd98984b011810f9071e7697ea",
     "url": "/xenia_oracle_1/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xenia_oracle_1/static/css/2.06565635.chunk.css"
   },
   {
-    "revision": "be89b6dbe8ed1c5e676a",
-    "url": "/xenia_oracle_1/static/css/main.a68e0987.chunk.css"
+    "revision": "51dc65dbed9bb7a193cd",
+    "url": "/xenia_oracle_1/static/css/main.c8a3c94a.chunk.css"
   },
   {
     "revision": "793e857db9efd2ee804c",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xenia_oracle_1/static/js/2.22cb0bd6.chunk.js.LICENSE"
   },
   {
-    "revision": "be89b6dbe8ed1c5e676a",
+    "revision": "51dc65dbed9bb7a193cd",
     "url": "/xenia_oracle_1/static/js/main.f78937d2.chunk.js"
   },
   {
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "084e7243c8927e2607284d7c9566e404",
     "url": "/xenia_oracle_1/static/media/b4.084e7243.png"
+  },
+  {
+    "revision": "20c2f806497fc6cb2470b1d97b9d5c2c",
+    "url": "/xenia_oracle_1/static/media/faq_sm.20c2f806.jpg"
   },
   {
     "revision": "ab9829dddfb871779f73475c676dff35",
@@ -114,10 +118,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b493c526351d9086febbd30ac8fe4dae",
     "url": "/xenia_oracle_1/static/media/xenia-head-img-about.b493c526.jpg"
-  },
-  {
-    "revision": "2a6c4794625b7621fc6e3f5e2d655e46",
-    "url": "/xenia_oracle_1/static/media/xenia-head-img-features.2a6c4794.jpg"
   },
   {
     "revision": "790eeeadef80b399c6d83a8864d6c1be",

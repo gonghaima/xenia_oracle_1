@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/xenia_oracle_1/static/css/main.a68e0987.chunk.css",
+    "main.css": "/xenia_oracle_1/static/css/main.c8a3c94a.chunk.css",
     "main.js": "/xenia_oracle_1/static/js/main.f78937d2.chunk.js",
     "main.js.map": "/xenia_oracle_1/static/js/main.f78937d2.chunk.js.map",
     "runtime-main.js": "/xenia_oracle_1/static/js/runtime-main.842d8e57.js",
@@ -9,16 +9,17 @@
     "static/js/2.22cb0bd6.chunk.js": "/xenia_oracle_1/static/js/2.22cb0bd6.chunk.js",
     "static/js/2.22cb0bd6.chunk.js.map": "/xenia_oracle_1/static/js/2.22cb0bd6.chunk.js.map",
     "index.html": "/xenia_oracle_1/index.html",
-    "precache-manifest.d84b43c487eb12c75c5aa9534f15bca7.js": "/xenia_oracle_1/precache-manifest.d84b43c487eb12c75c5aa9534f15bca7.js",
+    "precache-manifest.e4fe935888c4930a622272c87e073afc.js": "/xenia_oracle_1/precache-manifest.e4fe935888c4930a622272c87e073afc.js",
     "service-worker.js": "/xenia_oracle_1/service-worker.js",
     "static/css/2.06565635.chunk.css.map": "/xenia_oracle_1/static/css/2.06565635.chunk.css.map",
-    "static/css/main.a68e0987.chunk.css.map": "/xenia_oracle_1/static/css/main.a68e0987.chunk.css.map",
+    "static/css/main.c8a3c94a.chunk.css.map": "/xenia_oracle_1/static/css/main.c8a3c94a.chunk.css.map",
     "static/js/2.22cb0bd6.chunk.js.LICENSE": "/xenia_oracle_1/static/js/2.22cb0bd6.chunk.js.LICENSE",
     "static/media/all-hands.jpg": "/xenia_oracle_1/static/media/all-hands.26a629fa.jpg",
     "static/media/b1.png": "/xenia_oracle_1/static/media/b1.ca145154.png",
     "static/media/b2.png": "/xenia_oracle_1/static/media/b2.660728f2.png",
     "static/media/b3.png": "/xenia_oracle_1/static/media/b3.7b5f7f3c.png",
     "static/media/b4.png": "/xenia_oracle_1/static/media/b4.084e7243.png",
+    "static/media/App.scss": "/xenia_oracle_1/static/media/xenia-head-img.790eeead.png",
     "static/media/feature-1.jpg": "/xenia_oracle_1/static/media/feature-1.ab9829dd.jpg",
     "static/media/feature-2.jpg": "/xenia_oracle_1/static/media/feature-2.6213f4a1.jpg",
     "static/media/feature-3.jpg": "/xenia_oracle_1/static/media/feature-3.7132b07f.jpg",
@@ -26,7 +27,6 @@
     "static/media/feature-5.jpg": "/xenia_oracle_1/static/media/feature-5.b9367f46.jpg",
     "static/media/feature-6.jpg": "/xenia_oracle_1/static/media/feature-6.3b53182f.jpg",
     "static/media/features.jpg": "/xenia_oracle_1/static/media/features.658fa107.jpg",
-    "static/media/App.scss": "/xenia_oracle_1/static/media/xenia-head-img.790eeead.png",
     "static/media/hotel-management-simplified.png": "/xenia_oracle_1/static/media/hotel-management-simplified.0178e91f.png",
     "static/media/hotel-what-is-hotel-pms.jpg": "/xenia_oracle_1/static/media/hotel-what-is-hotel-pms.aecbcb6b.jpg",
     "static/media/icon1.jpg": "/xenia_oracle_1/static/media/icon1.c915cf86.jpg",
@@ -41,7 +41,7 @@
     "static/js/runtime-main.842d8e57.js",
     "static/css/2.06565635.chunk.css",
     "static/js/2.22cb0bd6.chunk.js",
-    "static/css/main.a68e0987.chunk.css",
+    "static/css/main.c8a3c94a.chunk.css",
     "static/js/main.f78937d2.chunk.js"
   ]
 }
