@@ -13,21 +13,19 @@ export default () => {
   const [main, setMain] = useState();
 
   useEffect(() => {
-    !header && fetch('https://xenia-content.herokuapp.com/headers').then(res => {
+    !header && fetch('https://xenia-content.herokuapp.com/headers')
+      .then(res => res.json())
+      .then(bd => {
+        setHeader(bd[0]);
+      }).catch(err => {
+        console.log(err);
+      });
 
-      return res.json();
-    }).then(bd => {
-      // console.log(bd);
-      setHeader(bd[0]);
-    });
-
-    !main && fetch('https://xenia-content.herokuapp.com/mains').then(res => {
-
-      return res.json();
-    }).then(bd => {
-      // console.log(bd);
-      setMain(bd[0]);
-    });
+    !main && fetch('https://xenia-content.herokuapp.com/mains')
+      .then(res => res.json())
+      .then(bd => {
+        setMain(bd[0]);
+      });
 
   }, [header, main]);
 

@@ -9,7 +9,7 @@ import b4Img from '../../images/benefits/b4.png';
 
 export default ({ header, Layout, main }) => {
     return (
-        <Layout>
+        <Layout header={header}>
             <section className="head-section">
                 <div className="head-section-content">
                     <h2>{header && header.Title}</h2>

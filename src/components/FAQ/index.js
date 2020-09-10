@@ -2,9 +2,9 @@
 import React, { useEffect, useState } from 'react';
 import { data, activities } from './content';
 
-export default ({ Layout }) => {
+export default ({ Layout, header }) => {
     return (
-        <Layout>
+        <Layout header={header}>
             <section className="head-section-faq">
                 <div className="head-section-content">
                     <h2>Xenia Suite</h2>

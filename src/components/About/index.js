@@ -16,7 +16,7 @@ import allHands from '../../images/about/all-hands.jpg';
 
 export default ({ header }) => {
     return (
-        <Layout>
+        <Layout header={header}>
             <section className="head-section-about">
                 <div className="head-section-content">
                     <h2>Xenia Suite</h2>

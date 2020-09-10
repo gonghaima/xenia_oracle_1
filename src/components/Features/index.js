@@ -7,9 +7,9 @@ import f4Img from '../../images/features/feature-4.jpg';
 import f5Img from '../../images/features/feature-5.jpg';
 import f6Img from '../../images/features/feature-6.jpg';
 
-export default ({ Layout }) => {
+export default ({ Layout, header }) => {
     return (
-        <Layout>
+        <Layout header={header}>
             <section className="head-section-features">
                 <div className="head-section-content">
                     <h2>Xenia Suite Features</h2>

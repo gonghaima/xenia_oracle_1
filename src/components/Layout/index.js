@@ -1,12 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './Layout.scss';
-import oracleCloud from '../../images/oracle-cloud.jpg';
 import logo from '../../images/xenia.png';
-import { Router, Link } from '@reach/router';
-import Home from '../Home';
-import Features from '../Features';
-import About from '../About';
-import FAQ from '../FAQ';
+import { Link } from '@reach/router';
 
 
 
