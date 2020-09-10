@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import oracleCloud from '../../images/oracle-cloud.jpg';
-import logo from '../../images/xenia.png';
 import { Router, Link } from '@reach/router';
 import Layout from '../Layout';
 import Home from '../Home';
@@ -30,7 +28,7 @@ export default () => {
   }, [header, main]);
 
   return (
-    <Router key="router-container">
+    <Router basename={process.env.PUBLIC_URL}>
       <Home key="home-route" path="/" header={header} Layout={Layout} main={main} />
       <Features key="feature-route" path="/features" header={header} Layout={Layout} main={main} />
       <About key="about-route" path="/about" header={header} Layout={Layout} main={main} />
