@@ -1,7 +1,5 @@
 
 import React, { useEffect, useState } from 'react';
-
-import whatIsHotelPMS from '../../images/hotel-what-is-hotel-pms.jpg';
 import hotelManagement from '../../images/hotel-management-simplified.png';
 import featuresImg from '../../images/features.jpg';
 import b1Img from '../../images/benefits/b1.png';
@@ -9,21 +7,9 @@ import b2Img from '../../images/benefits/b2.png';
 import b3Img from '../../images/benefits/b3.png';
 import b4Img from '../../images/benefits/b4.png';
 
-export default ({ header }) => {
-    const [main, setMain] = useState();
-
-    useEffect(() => {
-
-        !main && fetch('https://xenia-content.herokuapp.com/mains').then(res => {
-
-            return res.json();
-        }).then(bd => {
-            console.log(bd);
-            setMain(bd[0]);
-        });
-    }, [main]);
+export default ({ header, Layout, main }) => {
     return (
-        <>
+        <Layout>
             <section className="head-section">
                 <div className="head-section-content">
                     <h2>{header && header.Title}</h2>
@@ -99,6 +85,6 @@ export default ({ header }) => {
                 </main>
             </section>
 
-        </>
+        </Layout>
     )
 }

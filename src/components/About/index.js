@@ -1,5 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
+import Layout from '../Layout';
 import jessieImg from '../../images/about/jessie.png';
 import icon1 from '../../images/about/icon1.jpg';
 import icon2 from '../../images/about/icon2.jpg';
@@ -14,20 +15,8 @@ import b3Img from '../../images/benefits/b3.png';
 import allHands from '../../images/about/all-hands.jpg';
 
 export default ({ header }) => {
-    const [main, setMain] = useState();
-
-    useEffect(() => {
-
-        !main && fetch('https://xenia-content.herokuapp.com/mains').then(res => {
-
-            return res.json();
-        }).then(bd => {
-            console.log(bd);
-            setMain(bd[0]);
-        });
-    }, [main]);
     return (
-        <>
+        <Layout>
             <section className="head-section-about">
                 <div className="head-section-content">
                     <h2>Xenia Suite</h2>
@@ -171,6 +160,6 @@ export default ({ header }) => {
                 </p>
                 <h4>Liz Murphy, Branch Manager at Property Link Groups Limited</h4>
             </section>
-        </>
+        </Layout>
     )
 }

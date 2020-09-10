@@ -7,21 +7,9 @@ import f4Img from '../../images/features/feature-4.jpg';
 import f5Img from '../../images/features/feature-5.jpg';
 import f6Img from '../../images/features/feature-6.jpg';
 
-export default ({ header }) => {
-    const [main, setMain] = useState();
-
-    useEffect(() => {
-
-        !main && fetch('https://xenia-content.herokuapp.com/mains').then(res => {
-
-            return res.json();
-        }).then(bd => {
-            console.log(bd);
-            setMain(bd[0]);
-        });
-    }, [main]);
+export default ({ Layout }) => {
     return (
-        <>
+        <Layout>
             <section className="head-section-features">
                 <div className="head-section-content">
                     <h2>Xenia Suite Features</h2>
@@ -216,6 +204,6 @@ export default ({ header }) => {
                 </main>
             </section>
 
-        </>
+        </Layout>
     )
 }
