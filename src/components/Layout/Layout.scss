@@ -30,6 +30,7 @@ $primary-background: rgba(0, 0, 0, 0.6);
 $second-background: rgba(0, 0, 0, 0.1);
 $third-background: #ece9e6;
 $fourth-background: #fcfbfa;
+$fifth-background: #cfcfcf;
 
 $notification-bg-color: #000;
 
@@ -329,7 +330,7 @@ $notification-bg-color: #000;
   margin-bottom: 0;
 }
 
-.notification-section{
+.notification-section, .notification-faq-section{
   @include content-section;
   h2{
     font-size: 1.7em;
@@ -348,6 +349,12 @@ $notification-bg-color: #000;
         min-width: 18em;
       }
   }
+}
+
+.notification-faq-section{
+  margin:38px;
+  color: $third-font-color;
+  background-color: $fifth-background;
 }
 
 nav {
@@ -631,7 +638,6 @@ nav {
 .main-section-faq {
   background-color: $fourth-background;
   padding-top: 2.5em;
-  padding-bottom: 3.5em;
   padding-left: 28px;
   padding-right: 20px;
   display: flex;
