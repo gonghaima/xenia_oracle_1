@@ -6,8 +6,12 @@ import b1Img from '../../images/benefits/b1.png';
 import b2Img from '../../images/benefits/b2.png';
 import b3Img from '../../images/benefits/b3.png';
 import b4Img from '../../images/benefits/b4.png';
+import b5Img from '../../images/benefits/b5.png';
+import b6Img from '../../images/benefits/b6.png';
+import { benefits } from './content';
 
 export default ({ header, Layout, main }) => {
+    const images = [b1Img, b2Img, b3Img, b4Img, b5Img, b6Img];
     return (
         <Layout header={header}>
             <section className="head-section">
@@ -36,55 +40,20 @@ export default ({ header, Layout, main }) => {
                 <p>Your customer’s journey begins before they’ve stepped into your hotel. From their initial booking interaction, on-site welcome, in-room experience, to their post-stay reflection; every step counts towards your customer’s satisfaction and ultimately determines their repeat business.</p>
                 <p>Investing in your personalised guest experience will in turn increase your customer loyalty. Xenia Suite offers many benefits for hotelier’s including: </p>
             </section>
-            <section className="main-section">
-                <div className="side">
-                    <img alt="b1-img" src={b1Img} />
-                </div>
-                <main>
-                    <h4>Enhanced check-in/check-out capabilities</h4>
-                    <p>empower your guests through the Xenia Suite mobile app. Guests can manage self-check-in / check-out, receive and send alerts for delays and emergencies; and manage their booking preferences through a touch of a button.</p>
-                    <div className="learn-more-button-container">
-                        <button>FIND OUT MORE</button>
+            {benefits.map((benefit, idx) =>
+                <section className="main-section">
+                    <div className="side">
+                        <img alt="b1-img" src={images[idx] ? images[idx] : images[0]} />
                     </div>
-                </main>
-            </section>
-            <section className="main-section">
-                <div className="side">
-                    <img alt="b2-img" src={b2Img} />
-                </div>
-                <main>
-                    <h4>Improved housekeeping service</h4>
-                    <p>monitor performance, rostering and ensure rooms are clean and in perfect condition. Enjoy greater flexibility with room-service tasks and maintenance needs with our automated software.</p>
-                    <div className="learn-more-button-container">
-                        <button>FIND OUT MORE</button>
-                    </div>
-                </main>
-            </section>
-            <section className="main-section">
-                <div className="side">
-                    <img alt="b3-img" src={b3Img} />
-                </div>
-                <main>
-                    <h4>Integrated hotel back-office systems</h4>
-                    <p>connect operations and financial processes including full accounting, balance sheets, cash and inventory management, and with instant cashflow visibility.</p>
-                    <div className="learn-more-button-container">
-                        <button>FIND OUT MORE</button>
-                    </div>
-                </main>
-            </section>
-            <section className="main-section">
-                <div className="side">
-                    <img alt="b4-img" src={b4Img} />
-                </div>
-                <main>
-                    <h4>Centralised customer data</h4>
-                    <p>improve the quality and accuracy of your guest profiles with reporting and analytics. Understand your customer buying patterns so you can create targeted packages, services and marketing campaigns with ease.</p>
-                    <div className="learn-more-button-container">
-                        <button>FIND OUT MORE</button>
-                    </div>
-                </main>
-            </section>
-
+                    <main>
+                        <h4>{benefit.title}</h4>
+                        <p>{benefit.content}</p>
+                        <div className="learn-more-button-container">
+                            <button>FIND OUT MORE</button>
+                        </div>
+                    </main>
+                </section>
+            )}
         </Layout>
     )
 }
