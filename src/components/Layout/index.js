@@ -47,7 +47,7 @@ export default ({ children, header }) => {
                         <h5>About us</h5>
                         <h5>Features & benefits</h5>
                         <h5>FAQ’s</h5>
-                        <h5>Contac us</h5>
+                        <h5>Contact us</h5>
                     </div>
                 </div>
                 <h5 className="nav">

@@ -7,7 +7,7 @@ export default ({ Layout, header }) => {
         <Layout header={header}>
             <section className="head-section-faq">
                 <div className="head-section-content">
-                    <h2>Xenia Suite</h2>
+                    <h2 className="black">Xenia Suite</h2>
                 </div>
             </section>
             <section className="faq-content-section">
