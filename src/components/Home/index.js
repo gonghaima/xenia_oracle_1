@@ -41,7 +41,7 @@ export default ({ header, Layout, main }) => {
                 <p>Investing in your personalised guest experience will in turn increase your customer loyalty. Xenia Suite offers many benefits for hotelier’s including: </p>
             </section>
             {benefits.map((benefit, idx) =>
-                <section className="main-section">
+                <section key={`benefits${idx}`} className="main-section">
                     <div className="side">
                         <img alt="b1-img" src={images[idx] ? images[idx] : images[0]} />
                     </div>
