@@ -19,7 +19,7 @@ export default ({ children, header }) => {
                     <Link to="/about">About us</Link>
                     <Link to="/">Services</Link>
                     <Link to="/faq">FAQ'S</Link>
-                    <Link to="/">Contact</Link>
+                    <Link to="/contact">Contact</Link>
                 </div>
             </section>
             <div className="breadcrumb">
