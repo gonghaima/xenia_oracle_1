@@ -5,6 +5,7 @@ import Home from '../Home';
 import Features from '../Features';
 import About from '../About';
 import FAQ from '../FAQ';
+import Contact from '../Contact';
 
 export default () => {
   const [header, setHeader] = useState();
@@ -33,6 +34,7 @@ export default () => {
       <Features key="feature-route" path="/features" header={header} Layout={Layout} main={main} />
       <About key="about-route" path="/about" header={header} Layout={Layout} main={main} />
       <FAQ key="faq-route" id="faq-route" path="/faq" header={header} Layout={Layout} main={main} />
+      <Contact key="contact-route" id="contact-route" path="/contact" header={header} Layout={Layout} main={main} />
     </Router>
   );
 }
