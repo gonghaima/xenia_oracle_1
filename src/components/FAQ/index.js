@@ -49,7 +49,7 @@ export default ({ Layout, header }) => {
             </section>
             <section className="notification-faq-section">
                 <h2>Now you have all the answers!</h2>
-                <div class="button-container">
+                <div className="button-container">
                     <button>Get your free quote</button>
                 </div>
             </section>
