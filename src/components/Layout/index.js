@@ -17,7 +17,6 @@ export default ({ children, header }) => {
                     <Link to="/">Home</Link>
                     <Link to="/features">Features & Benefits</Link>
                     <Link to="/about">About us</Link>
-                    <Link to="/">Services</Link>
                     <Link to="/faq">FAQ'S</Link>
                     <Link to="/contact">Contact</Link>
                 </div>
@@ -43,7 +42,6 @@ export default ({ children, header }) => {
                     </div>
                     <div className="right">
                         <h5>Home</h5>
-                        <h5>Services</h5>
                         <h5>About us</h5>
                         <h5>Features & benefits</h5>
                         <h5>FAQ’s</h5>
