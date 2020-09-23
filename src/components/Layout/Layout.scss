@@ -163,10 +163,10 @@ $notification-bg-color: #000;
     position: relative;
     width: 200px;
     img {
-      height: calc(4vw);
+      width:120px;
       position: absolute;
-      margin-top: 37px;
-      // margin-top: calc(1vw + 20px);
+      // margin-top: 30px;
+      margin-top: calc(1vw + 18px);
     }
 }
 
@@ -240,6 +240,9 @@ $notification-bg-color: #000;
       font-size: 0.9em;
       font-weight: 400;
       line-height: 1.55;
+    }
+    img {
+      max-width: 250px;
     }
     .hero-button-container {
       @include button-container;
@@ -750,6 +753,9 @@ nav {
   }
   .head-section-content {
     min-height: 243px;
+    img {
+      max-width: 250px;
+    }
   }
   .main-section {
     main {
@@ -770,7 +776,11 @@ nav {
   }
   .logo {
     img {
-      margin-top: 30px;
+      // margin-top: 30px;
+      width:170px;
+      position: absolute;
+      // margin-top: 30px;
+      margin-top: calc(1vw + 7px);
     }
   }
   .breadcrumb {
@@ -781,5 +791,8 @@ nav {
   }
   .head-section-content {
     min-height: 320px;
+    img {
+      max-width: 250px;
+    }
   }
 }
