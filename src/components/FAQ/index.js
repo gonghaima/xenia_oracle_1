@@ -1,13 +1,14 @@
 
 import React, { useEffect, useState } from 'react';
 import { data, activities } from './content';
+import headingLogoImg from '../../images/heading-logo.png'
 
 export default ({ Layout, header }) => {
     return (
         <Layout header={header}>
             <section className="head-section-faq">
                 <div className="head-section-content">
-                    <h2 className="black">Xenia Suite</h2>
+                    <img alt="heading-logo" src={headingLogoImg} />
                 </div>
             </section>
             <section className="faq-content-section">

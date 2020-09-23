@@ -6,20 +6,14 @@ import icon1 from '../../images/about/icon1.jpg';
 import icon2 from '../../images/about/icon2.jpg';
 import icon3 from '../../images/about/icon3.jpg';
 import icon4 from '../../images/about/icon4.jpg';
-
-import whatIsHotelPMS from '../../images/hotel-what-is-hotel-pms.jpg';
-import hotelManagement from '../../images/hotel-management-simplified.png';
-import featuresImg from '../../images/features.jpg';
-import b1Img from '../../images/benefits/b1.png';
-import b3Img from '../../images/benefits/b3.png';
-import allHands from '../../images/about/all-hands.jpg';
+import headingLogoImg from '../../images/heading-logo.png'
 
 export default ({ header }) => {
     return (
         <Layout header={header}>
             <section className="head-section-about">
                 <div className="head-section-content">
-                    <h2>Xenia Suite</h2>
+                    <img alt="heading-logo" src={headingLogoImg} />
                 </div>
             </section>
             <section className="about-content-section">
