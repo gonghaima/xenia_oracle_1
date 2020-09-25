@@ -10,10 +10,10 @@ import b5Img from '../../images/benefits/b5.png';
 import b6Img from '../../images/benefits/b6.png';
 import { benefits } from './content';
 
-export default ({ header, Layout, data }) => {
+export default ({ Layout, headerData, mainData }) => {
     const images = [b1Img, b2Img, b3Img, b4Img, b5Img, b6Img];
-    const { mains } = data;
-    const main = mains && mains[0];
+    const [main] = mainData.mains;
+    const [header] = headerData.headers;
     return (
         main && <Layout header={header}>
             <section className="head-section">

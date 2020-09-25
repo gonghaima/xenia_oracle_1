@@ -8,7 +8,8 @@ import icon3 from '../../images/about/icon3.jpg';
 import icon4 from '../../images/about/icon4.jpg';
 import headingLogoImg from '../../images/heading-logo.png'
 
-export default ({ header }) => {
+export default ({ headerData }) => {
+    const [header] = headerData.headers;
     return (
         <Layout header={header}>
             <section className="head-section-about">
