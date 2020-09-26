@@ -1,5 +1,5 @@
 
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Layout from '../Layout';
 import jessieImg from '../../images/about/jessie.png';
 import icon1 from '../../images/about/icon1.jpg';
@@ -8,7 +8,8 @@ import icon3 from '../../images/about/icon3.jpg';
 import icon4 from '../../images/about/icon4.jpg';
 import headingLogoImg from '../../images/heading-logo.png'
 
-export default ({ header }) => {
+export default ({ headerData }) => {
+    const [header] = headerData.headers;
     return (
         <Layout header={header}>
             <section className="head-section-about">
@@ -30,7 +31,7 @@ export default ({ header }) => {
             </section>
             <section className="head-section-about-all-hands">
                 <div className="head-section-content">
-                    <h2></h2>
+                    <h2> </h2>
                 </div>
             </section>
             <section className="about-content-section">

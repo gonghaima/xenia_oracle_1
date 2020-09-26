@@ -1,40 +1,53 @@
-import React, { useEffect, useState } from 'react';
-import { Router, Link } from '@reach/router';
+import React from 'react';
+import { Router } from '@reach/router';
 import Layout from '../Layout';
 import Home from '../Home';
 import Features from '../Features';
 import About from '../About';
 import FAQ from '../FAQ';
 import Contact from '../Contact';
+import { gql, useQuery } from '@apollo/client';
+
+
+const GET_MAINS = gql`
+  query{
+    mains {
+      title
+      details
+    }
+  }
+`;
+
+const GET_HEADERS = gql`
+  query{
+    headers{
+      Title
+      Subtitle
+      ButtonText
+    }
+  }
+`;
 
 export default () => {
-  const [header, setHeader] = useState();
-  const [main, setMain] = useState();
 
-  useEffect(() => {
-    !header && fetch('https://xenia-content.herokuapp.com/headers')
-      .then(res => res.json())
-      .then(bd => {
-        setHeader(bd[0]);
-      }).catch(err => {
-        console.log(err);
-      });
+  const { data: mainData, loading: mainLoading, error: mainError } = useQuery(
+    GET_MAINS
+  );
 
-    !main && fetch('https://xenia-content.herokuapp.com/mains')
-      .then(res => res.json())
-      .then(bd => {
-        setMain(bd[0]);
-      });
+  const { data: headerData, loading: headerLoading, error: headerError } = useQuery(
+    GET_HEADERS
+  );
 
-  }, [header, main]);
+  if (mainLoading || headerLoading) return null;
+  if (mainError || headerError) return (console.log(mainError) || console.log(headerError)) && null;
 
   return (
     <Router basename={process.env.PUBLIC_URL}>
-      <Home key="home-route" path="/" header={header} Layout={Layout} main={main} />
-      <Features key="feature-route" path="/features" header={header} Layout={Layout} main={main} />
-      <About key="about-route" path="/about" header={header} Layout={Layout} main={main} />
-      <FAQ key="faq-route" id="faq-route" path="/faq" header={header} Layout={Layout} main={main} />
-      <Contact key="contact-route" id="contact-route" path="/contact" header={header} Layout={Layout} main={main} />
+      <Home key="home-route" path="/" Layout={Layout} mainData={mainData} headerData={headerData} />
+      <Features key="feature-route" path="/features" Layout={Layout} mainData={mainData} headerData={headerData} />
+      <About key="about-route" path="/about" Layout={Layout} mainData={mainData} headerData={headerData} />
+      <FAQ key="faq-route" id="faq-route" path="/faq" Layout={Layout} mainData={mainData} headerData={headerData} />
+      <Contact key="contact-route" id="contact-route" path="/contact" Layout={Layout} headerData={headerData} />
     </Router>
   );
 }

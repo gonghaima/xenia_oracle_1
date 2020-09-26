@@ -1,9 +1,10 @@
 
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { data, activities } from './content';
 import headingLogoImg from '../../images/heading-logo.png'
 
-export default ({ Layout, header }) => {
+export default ({ Layout, headerData }) => {
+    const [header] = headerData.headers;;
     return (
         <Layout header={header}>
             <section className="head-section-faq">

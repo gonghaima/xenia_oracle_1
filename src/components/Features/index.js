@@ -1,5 +1,5 @@
 
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import f1Img from '../../images/features/feature-1.jpg';
 import f2Img from '../../images/features/feature-2.jpg';
 import f3Img from '../../images/features/feature-3.jpg';
@@ -7,7 +7,8 @@ import f4Img from '../../images/features/feature-4.jpg';
 import f5Img from '../../images/features/feature-5.jpg';
 import f6Img from '../../images/features/feature-6.jpg';
 
-export default ({ Layout, header }) => {
+export default ({ Layout, headerData }) => {
+    const [header] = headerData.headers;
     return (
         <Layout header={header}>
             <section className="head-section-features">

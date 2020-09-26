@@ -1,5 +1,5 @@
 
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import hotelManagement from '../../images/hotel-management-simplified.png';
 import featuresImg from '../../images/features.jpg';
 import b1Img from '../../images/benefits/b1.png';
@@ -10,10 +10,12 @@ import b5Img from '../../images/benefits/b5.png';
 import b6Img from '../../images/benefits/b6.png';
 import { benefits } from './content';
 
-export default ({ header, Layout, main }) => {
+export default ({ Layout, headerData, mainData }) => {
     const images = [b1Img, b2Img, b3Img, b4Img, b5Img, b6Img];
+    const [main] = mainData.mains;
+    const [header] = headerData.headers;
     return (
-        <Layout header={header}>
+        main && <Layout header={header}>
             <section className="head-section">
                 <div className="head-section-content">
                     <h2>{header && header.Title}</h2>
