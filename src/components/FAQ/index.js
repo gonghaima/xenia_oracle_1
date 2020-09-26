@@ -1,5 +1,5 @@
 
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { data, activities } from './content';
 import headingLogoImg from '../../images/heading-logo.png'
 

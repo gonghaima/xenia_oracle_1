@@ -1,7 +1,6 @@
 
 import React from 'react';
 import JotformEmbed from 'react-jotform-embed';
-import f6Img from '../../images/features/feature-6.jpg';
 
 export default ({ Layout, headerData }) => {
     const [header] = headerData.headers;

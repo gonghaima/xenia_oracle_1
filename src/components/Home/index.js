@@ -1,5 +1,5 @@
 
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import hotelManagement from '../../images/hotel-management-simplified.png';
 import featuresImg from '../../images/features.jpg';
 import b1Img from '../../images/benefits/b1.png';

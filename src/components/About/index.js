@@ -1,5 +1,5 @@
 
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Layout from '../Layout';
 import jessieImg from '../../images/about/jessie.png';
 import icon1 from '../../images/about/icon1.jpg';
@@ -31,7 +31,7 @@ export default ({ headerData }) => {
             </section>
             <section className="head-section-about-all-hands">
                 <div className="head-section-content">
-                    <h2></h2>
+                    <h2> </h2>
                 </div>
             </section>
             <section className="about-content-section">

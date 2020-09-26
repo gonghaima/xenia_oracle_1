@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { Router, Link } from '@reach/router';
+import React from 'react';
+import { Router } from '@reach/router';
 import Layout from '../Layout';
 import Home from '../Home';
 import Features from '../Features';
@@ -38,8 +38,8 @@ export default () => {
     GET_HEADERS
   );
 
-  if (mainLoading || headerLoading) return <h1>Loading...</h1>;
-  if (mainError || headerError) console.log(mainError) || console.log(headerError);
+  if (mainLoading || headerLoading) return null;
+  if (mainError || headerError) return (console.log(mainError) || console.log(headerError)) && null;
 
   return (
     <Router basename={process.env.PUBLIC_URL}>
