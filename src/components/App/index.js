@@ -39,7 +39,7 @@ export default () => {
   );
 
   if (mainLoading || headerLoading) return null;
-  if (mainError || headerError) return (console.log(mainError) || console.log(headerError)) && null;
+  if (mainError || headerError) return (console.log(mainError) || console.log(headerError));
 
   return (
     <Router basename={process.env.PUBLIC_URL}>
