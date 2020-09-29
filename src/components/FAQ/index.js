@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from '@reach/router';
 import { data, activities } from './content';
 import headingLogoImg from '../../images/heading-logo.png'
 
@@ -17,8 +18,8 @@ export default ({ Layout, headerData }) => {
                 <p>
                     Here you’ll find answers to our most common questions. Still want to know more? Get in touch to chat with our local team.
                 </p>
-                <div className="button-container">
-                    <button>Contact Us</button>
+                <div className="faq-button-container">
+                    <Link to="/contact">Contact Us</Link>
                 </div>
             </section>
             <section className="main-section-faq">
@@ -52,7 +53,7 @@ export default ({ Layout, headerData }) => {
             <section className="notification-faq-section">
                 <h2>Now you have all the answers!</h2>
                 <div className="button-container">
-                    <button>Get your free quote</button>
+                    <Link to="/contact">Get your free quote</Link>
                 </div>
             </section>
         </Layout>

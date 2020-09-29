@@ -58,7 +58,43 @@ $notification-bg-color: #000;
   }
 }
 
-@mixin button-container {
+@mixin flex-center-mix {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin button-container-a {
+ a {
+    color: $primary-font-color;
+    background-color: #635e5e;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    font-weight: 600;
+  }
+}
+
+@mixin a-base {
+  a {
+       margin: 0.1em 0px 0.1em 0em;
+      //  font-size: 0.83em;
+       font-size: 10px;
+       text-decoration: none;
+       font-weight: 900;
+       &.heading{
+         margin: 1.5em 0px 1.5em 0em;
+       }
+       display: block;
+       @include flex-center-mix;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+@mixin button-base {
   display: flex;
   align-items: center;
   button, a {
@@ -84,15 +120,11 @@ $notification-bg-color: #000;
       outline: 0;
     }
   }
-  a {
-    color: $primary-font-color;
-    background-color: #635e5e;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
-    font-weight: 600;
-  }
+}
+
+@mixin button-container {
+  @include button-base;
+  @include button-container-a;
 }
 
 @mixin icon-container {
@@ -202,8 +234,9 @@ $notification-bg-color: #000;
   color: $primary-font-color;
   display: flex;
   justify-content: flex-end;
-  @include button-container;
-  button{
+  @include button-base;
+  @include a-base;
+  a {
     font-size: 1em;
   }
   .breadcrumb-content {
@@ -245,7 +278,8 @@ $notification-bg-color: #000;
       max-width: 250px;
     }
     .hero-button-container {
-      @include button-container;
+      @include button-base;
+      @include a-base;
     }
   }
 }
@@ -336,6 +370,13 @@ $notification-bg-color: #000;
 .faq-content-section{
   margin-bottom: 0;
 }
+.faq-button-container {
+      @include button-base;
+      @include a-base;
+      a {
+        min-width: 18em;
+      }
+}
 
 .notification-section, .notification-faq-section{
   @include content-section;
@@ -350,8 +391,9 @@ $notification-bg-color: #000;
   background-color: $notification-bg-color;
   color: $primary-font-color;
   .button-container {
-      @include button-container;
-      button {
+      @include button-base;
+      @include a-base;
+      a {
         margin: 0.3em 1em 3em 1em;
         min-width: 18em;
       }
@@ -585,8 +627,8 @@ nav {
       padding-bottom: 1.2em;
     }
     .learn-more-button-container {
-      @include button-container;
-      padding-bottom: 3em;
+      @include button-base;
+      @include a-base;
     }
 
     li {
@@ -717,34 +759,42 @@ nav {
   display: block;
   background: url(../../images/footer-bg.jpg);
   background-size: cover;
-    & .left, & .right{
-      color:$primary-font-color;
+  & .left, & .right, & a{
+    color:$primary-font-color;
+        text-decoration: none;
+  }
+  & .right{
+    text-align: right;
+    & .heading{
+      margin: 0.6em 0px 0.6em 0em;
     }
-    & .right{
-      text-align: right;
-      & .heading{
-        margin: 0.6em 0px 0.6em 0em;
-      }
+  }
+  & .footer-button-container{
+    @include button-base;
+    
+  }
+  & .main{
+    display: flex;
+    justify-content: space-between;
+  }
+  & .nav{
+    color:$primary-font-color;
+    display: flex;
+  justify-content: space-evenly;
+  }
+  h5, a {
+    margin: 0.1em 0px 0.1em 0em;
+    font-size: 0.83em;
+    font-weight: 400;
+    &.heading{
+      margin: 1.5em 0px 1.5em 0em;
     }
-    & .footer-button-container{
-      @include button-container;
-    }
-     & .main{
-       display: flex;
-       justify-content: space-between;
-     }
-     & .nav{
-       color:$primary-font-color;
-       display: flex;
-      justify-content: space-evenly;
-     }
-     h5 {
-       margin: 0.1em 0px 0.1em 0em;
-       font-weight: 400;
-       &.heading{
-         margin: 1.5em 0px 1.5em 0em;
-       }
-     }
+    display: block;
+    @include flex-center-mix;
+  }
+  h5{
+    justify-content: left;
+  }
 }
 
 @media only screen and (min-width: $breakpoint-xs) {

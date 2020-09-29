@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from '@reach/router';
 import hotelManagement from '../../images/hotel-management-simplified.png';
 import featuresImg from '../../images/features.jpg';
 import b1Img from '../../images/benefits/b1.png';
@@ -21,7 +22,7 @@ export default ({ Layout, headerData, mainData }) => {
                     <h2>{header && header.Title}</h2>
                     <p>{header && header.Subtitle}</p>
                     <div className="hero-button-container">
-                        <button>{header && header.ButtonText}</button>
+                        <Link to="/contact">{header && header.ButtonText}</Link>
                     </div>
                 </div>
             </section>
@@ -34,7 +35,9 @@ export default ({ Layout, headerData, mainData }) => {
                 <h2>Covid-19 Update</h2>
                 <p>At Xenia Suite, we understand the challenges involved in working in a seasonal business, and even more so during a global crisis. We want to help you through this uncertain time, and that’s why, when times are tough your monthly fees are reduced in line with your occupancy rates.</p>
                 <p>We’re in this together and are here to help our clients as much as we can. Talk to us today to hear how we can help you reduce your outgoings and focus on keeping your business in the black.</p>
-                <div className="button-container"><button>Contact Us</button></div>
+                <div className="button-container">
+                    <Link to="/contact">Contact Us</Link>
+                </div>
             </section>
             <section className="feature-section">
                 <img alt="main-img" src={featuresImg} />
@@ -51,7 +54,7 @@ export default ({ Layout, headerData, mainData }) => {
                         <h4>{benefit.title}</h4>
                         <p>{benefit.content}</p>
                         <div className="learn-more-button-container">
-                            <button>FIND OUT MORE</button>
+                            <Link to="/contact">FIND OUT MORE</Link>
                         </div>
                     </main>
                 </section>
