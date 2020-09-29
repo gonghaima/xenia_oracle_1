@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from '@reach/router';
 import Layout from '../Layout';
 import jessieImg from '../../images/about/jessie.png';
 import icon1 from '../../images/about/icon1.jpg';
@@ -63,7 +64,7 @@ export default ({ headerData }) => {
                         home.
                     </p>
                     <div className="learn-more-button-container">
-                        <button>Contact Jessie</button>
+                        <Link to="/contact">Contact Jessie</Link>
                     </div>
                 </main>
             </section>
@@ -88,7 +89,7 @@ export default ({ headerData }) => {
                         team to run Xenia Suite effectively and independently.
                     </p>
                     <div className="learn-more-button-container">
-                        <button>Contact Us</button>
+                        <Link to="/contact">Contact Us</Link>
                     </div>
                 </main>
             </section>
@@ -106,7 +107,7 @@ export default ({ headerData }) => {
                         support you may need 24/7.
                     </p>
                     <div className="learn-more-button-container">
-                        <button>Contact Us</button>
+                        <Link to="/contact">Contact Us</Link>
                     </div>
                 </main>
             </section>
@@ -124,7 +125,7 @@ export default ({ headerData }) => {
                         we’re constantly evolving and providing you with what you need for your business.
                     </p>
                     <div className="learn-more-button-container">
-                        <button>Contact Us</button>
+                        <Link to="/contact">Contact Us</Link>
                     </div>
                 </main>
             </section>
@@ -143,7 +144,7 @@ export default ({ headerData }) => {
                         of the Xenia Suite software.
                     </p>
                     <div className="learn-more-button-container">
-                        <button>Contact Us</button>
+                        <Link to="/contact">Contact Us</Link>
                     </div>
                 </main>
             </section>
