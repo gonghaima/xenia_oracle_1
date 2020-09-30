@@ -6,6 +6,7 @@ import Features from '../Features';
 import About from '../About';
 import FAQ from '../FAQ';
 import Contact from '../Contact';
+import Career from '../Career';
 import { gql, useQuery } from '@apollo/client';
 
 
@@ -48,6 +49,7 @@ export default () => {
       <About key="about-route" path="/about" Layout={Layout} mainData={mainData} headerData={headerData} />
       <FAQ key="faq-route" id="faq-route" path="/faq" Layout={Layout} mainData={mainData} headerData={headerData} />
       <Contact key="contact-route" id="contact-route" path="/contact" Layout={Layout} headerData={headerData} />
+      <Career key="career-route" id="faq-route" path="/career" Layout={Layout} mainData={mainData} headerData={headerData} />
     </Router>
   );
 }
