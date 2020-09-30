@@ -780,7 +780,11 @@ nav {
   & .nav{
     color:$primary-font-color;
     display: flex;
-  justify-content: space-evenly;
+    justify-content: center;
+    a {
+      margin: 0px 5px 0px 5px;
+      font-size: 13px;
+    }
   }
   h5, a {
     margin: 0.1em 0px 0.1em 0em;
@@ -791,6 +795,9 @@ nav {
     }
     display: block;
     @include flex-center-mix;
+  }
+  a{
+    justify-content: flex-end;
   }
   h5{
     justify-content: left;

@@ -48,8 +48,11 @@ export default ({ children, header }) => {
                     </div>
                 </div>
                 <h5 className="nav">
-                    Customer care | Careers | Connect with us | Terms and conditions
-        </h5>
+                    <a href="mailto:XeniaSales@xeniasuite.com">Customer care</a> |
+                    <a>Careers</a> |
+                    <a>Connect with us</a> |
+                    <a>Terms and conditions</a>
+                </h5>
             </section>
 
         </div>
