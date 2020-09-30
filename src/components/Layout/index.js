@@ -49,7 +49,7 @@ export default ({ children, header }) => {
                 </div>
                 <h5 className="nav">
                     <a href="mailto:XeniaSales@xeniasuite.com">Customer care</a> |
-                    <a>Careers</a> |
+                    <Link to="/career">Careers</Link> |
                     <a>Connect with us</a> |
                     <a>Terms and conditions</a>
                 </h5>
