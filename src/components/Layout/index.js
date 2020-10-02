@@ -50,8 +50,8 @@ export default ({ children, header }) => {
                 <h5 className="nav">
                     <a href="mailto:XeniaSales@xeniasuite.com">Customer care</a> |
                     <Link to="/career">Careers</Link> |
-                    <a>Connect with us</a> |
-                    <a>Terms and conditions</a>
+                    <a href="https://www.facebook.com/Xenia-Suite-617066291991191/" target="_blank">Facebook</a> |
+                    <a href="https://www.linkedin.com/company/xenia-suite" target="_blank">LinkedIn</a>
                 </h5>
             </section>
 
