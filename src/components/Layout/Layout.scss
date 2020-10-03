@@ -34,6 +34,15 @@ $fifth-background: #cfcfcf;
 
 $notification-bg-color: #000;
 
+@mixin head-section-content-sm-mix {
+  .head-section-content {
+      padding: 3.2em 38px 2em 6em;
+      p {
+        width: 33em;
+      }
+    }
+}
+
 @mixin general-section {
   li {
     position: relative;
@@ -79,6 +88,7 @@ $notification-bg-color: #000;
 @mixin a-base {
   a {
        margin: 0.1em 0px 0.1em 0em;
+       padding: 5px;
       //  font-size: 0.83em;
        font-size: 10px;
        text-decoration: none;
@@ -100,7 +110,8 @@ $notification-bg-color: #000;
   button, a {
     height: 35px;
     border-radius: 3px;
-    padding: 0px 15px 0px 15px;
+    // padding: 0px 15px 0px 15px;
+    padding: 5px;
     background-color: $primary-button-color;
     border-color: $primary-theme-color;
     font-size: $font-size-10;
@@ -191,12 +202,13 @@ $notification-bg-color: #000;
 .logo{
     background: black;
     z-index: 9;
-    left: calc(3vw);
+    // left: calc(3vw);
     position: relative;
-    width: 200px;
+    // width: 200px;
     img {
       width:120px;
-      position: absolute;
+      // position: absolute;
+      position: auto;
       // margin-top: 30px;
       margin-top: calc(1vw + 18px);
     }
@@ -238,6 +250,7 @@ $notification-bg-color: #000;
   @include a-base;
   a {
     font-size: 1em;
+    padding: 5px;
   }
   .breadcrumb-content {
     display: flex;
@@ -254,8 +267,7 @@ $notification-bg-color: #000;
   background-repeat: no-repeat;
   // background-size: cover;
   .head-section-content {
-    //  min-height: calc(13.2530120482vw + 187.951807229px + -8.9rem);
-    padding: 3.2em 38px 2em 6em;
+    padding: 1em;
     h2 {
       font-size: 2.2em;
       font-weight: 600;
@@ -267,7 +279,6 @@ $notification-bg-color: #000;
       color: $third-font-color;
     }
     p {
-      width: 33em;
       margin: 0 0 1.5em;
       color: $fifth-font-color;
       font-size: 0.9em;
@@ -824,6 +835,35 @@ nav {
         font-size: calc(1vw + 25px);
       }
     }
+  }
+}
+
+@media only screen and (min-width: $breakpoint-sm) {
+  button, a {
+    padding: 0px 15px 0px 15px;
+  }
+  .top-section a {
+    padding: 0px 15px 0px 15px;
+  }
+  .logo {
+    left: calc(3vw);
+    width: 200px;
+    img {
+      position: absolute;
+    }
+  }
+  .head-section {
+    @include head-section-content-sm-mix;
+  }
+
+  .head-section-features {
+    @include head-section-content-sm-mix;
+  }
+  .head-section-about {
+    @include head-section-content-sm-mix;
+  }
+  .head-section-faq {
+    @include head-section-content-sm-mix;
   }
 }
 
