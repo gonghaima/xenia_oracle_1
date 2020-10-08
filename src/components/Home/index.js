@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from '@reach/router';
-import hotelManagement from '../../images/hotel-management-simplified.png';
+import hotelManagement from '../../images/hotel-management-simplified.svg';
 import featuresImg from '../../images/features.jpg';
 import b1Img from '../../images/benefits/b1.png';
 import b2Img from '../../images/benefits/b2.png';
