@@ -202,14 +202,12 @@ $notification-bg-color: #000;
 .logo{
     background: black;
     z-index: 9;
-    // left: calc(3vw);
     position: relative;
-    // width: 200px;
     img {
-      width:120px;
-      // position: absolute;
+      width: auto;
+      height: 90px;
+      background-color: black;
       position: auto;
-      // margin-top: 30px;
       margin-top: calc(1vw + 18px);
     }
 }
@@ -850,6 +848,7 @@ nav {
     width: 200px;
     img {
       position: absolute;
+      margin-top: calc(1vw + 4px);
     }
   }
   .head-section {
@@ -873,11 +872,8 @@ nav {
   }
   .logo {
     img {
-      // margin-top: 30px;
-      width:170px;
       position: absolute;
-      // margin-top: 30px;
-      margin-top: calc(1vw + 7px);
+      margin-top: calc(1vw + 4px);
     }
   }
   .breadcrumb {
