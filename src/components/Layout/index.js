@@ -1,6 +1,6 @@
 import React from 'react';
 import './Layout.scss';
-import logo from '../../images/xenia.png';
+import logo from '../../images/xenia.svg';
 import { Link } from '@reach/router';
 
 
