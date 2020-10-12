@@ -3,12 +3,12 @@ import React from 'react';
 import { Link } from '@reach/router';
 import hotelManagement from '../../images/hotel-management-simplified.svg';
 import featuresImg from '../../images/features.jpg';
-import b1Img from '../../images/benefits/b1.png';
-import b2Img from '../../images/benefits/b2.png';
-import b3Img from '../../images/benefits/b3.png';
-import b4Img from '../../images/benefits/b4.png';
-import b5Img from '../../images/benefits/b5.png';
-import b6Img from '../../images/benefits/b6.png';
+import b1Img from '../../images/benefits/b1.jpg';
+import b2Img from '../../images/benefits/b2.jpg';
+import b3Img from '../../images/benefits/b3.jpg';
+import b4Img from '../../images/benefits/b4.jpg';
+import b5Img from '../../images/benefits/b5.jpg';
+import b6Img from '../../images/benefits/b6.jpg';
 import { benefits } from './content';
 
 export default ({ Layout, headerData, mainData }) => {
