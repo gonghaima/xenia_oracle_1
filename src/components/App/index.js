@@ -10,14 +10,14 @@ import Career from '../Career';
 import { gql, useQuery } from '@apollo/client';
 
 
-const GET_MAINS = gql`
-  query{
-    mains {
-      title
-      details
-    }
-  }
-`;
+// const GET_MAINS = gql`
+//   query{
+//     mains {
+//       title
+//       details
+//     }
+//   }
+// `;
 
 const GET_HEADERS = gql`
   query{
@@ -31,16 +31,24 @@ const GET_HEADERS = gql`
 
 export default () => {
 
-  const { data: mainData, loading: mainLoading, error: mainError } = useQuery(
-    GET_MAINS
-  );
+  const mainData = {
+    mains:
+      [
+        {
+          title: 'Hotel Management Simplified',
+          details: `Xenia Suite technology offers services that extend well beyond the front desk. The benefit of
+the Xenia Suite software enables hoteliers to deliver a seamless guest experience by taking
+care of the day to day including: `
+        }
+      ]
+  };
 
   const { data: headerData, loading: headerLoading, error: headerError } = useQuery(
     GET_HEADERS
   );
 
-  if (mainLoading || headerLoading) return null;
-  if (mainError || headerError) return (console.log(mainError) || console.log(headerError));
+  if (headerLoading) return null;
+  if (headerError) return (console.log(headerError));
 
   return (
     <Router basename={process.env.PUBLIC_URL}>
