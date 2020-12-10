@@ -51,7 +51,7 @@ export default ({ Layout, headerData }) => {
                 }
             </section>
             <section className="notification-faq-section">
-                <h2>Now you have all the answers!</h2>
+                <h2>Have more questions? Get in touch and we will be happy to help</h2>
                 <div className="button-container">
                     <Link to="/contact">Get your free quote</Link>
                 </div>

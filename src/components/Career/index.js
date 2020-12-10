@@ -13,7 +13,7 @@ export default ({ Layout, headerData }) => {
                 </div>
             </section>
             <section className="notification-faq-section">
-                <h2>No Current Situations Vacant, Please Check Back Later</h2>
+                <h2><i>Thanks for your interest in a career with Xenia Suite. We currently have no vacancies however we are always on the lookout for top talent to join our team. Feel free to send us your details and we will be in touch if a suitable role becomes available.</i></h2>
                 <div className="button-container">
                     <Link to="/contact">Contact us</Link>
                 </div>
