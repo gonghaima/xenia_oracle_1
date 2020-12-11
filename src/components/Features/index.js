@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from '@reach/router';
 import f1Img from '../../images/features/feature-1.jpg';
 import f2Img from '../../images/features/feature-2.jpg';
 import f3Img from '../../images/features/feature-3.jpg';
@@ -191,6 +192,9 @@ export default ({ Layout, headerData }) => {
                 </div>
                 <main>
                     <h4>Cost effective software</h4>
+                    <div className="cost-effective--button-container">
+                        <Link to="/contact">Contact Us</Link>
+                    </div>
                     <p>
                         We will work with you to configure Xenia Suite to suit your specific requirements. Only
                         pay for the functionality you need to drive your business forward.

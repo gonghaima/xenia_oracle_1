@@ -387,6 +387,17 @@ $notification-bg-color: #000;
       }
 }
 
+.cost-effective--button-container {
+      @include button-base;
+      @include a-base;
+      a {
+        min-width: 18em;
+        text-decoration: none !important;
+        color: white !important;
+      }
+
+}
+
 .notification-section, .notification-faq-section{
   @include content-section;
   h2{
