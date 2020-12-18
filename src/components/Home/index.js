@@ -54,7 +54,7 @@ export default ({ Layout, headerData, mainData }) => {
                         <h4>{benefit.title}</h4>
                         <p>{benefit.content}</p>
                         <div className="learn-more-button-container">
-                            <Link to="/contact">FIND OUT MORE</Link>
+                            <Link to="/features">FIND OUT MORE</Link>
                         </div>
                     </main>
                 </section>
