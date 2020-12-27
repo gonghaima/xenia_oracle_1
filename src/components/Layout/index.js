@@ -22,7 +22,7 @@ export default ({ children, header }) => {
             </section>
             <div className="breadcrumb">
                 <div className="content_margin flex-center breadcrumb-content">
-                    <Link to="/contact">Request a free demo</Link>
+                    <Link to="/contact">Request your free demo</Link>
                 </div>
             </div>
 
