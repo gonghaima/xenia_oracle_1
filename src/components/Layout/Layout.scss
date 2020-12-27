@@ -31,6 +31,7 @@ $second-background: rgba(0, 0, 0, 0.1);
 $third-background: #ece9e6;
 $fourth-background: #fcfbfa;
 $fifth-background: #cfcfcf;
+$sixth-background: #d0d0d0;
 
 $notification-bg-color: #000;
 
@@ -88,9 +89,8 @@ $notification-bg-color: #000;
 @mixin a-base {
   a {
        margin: 0.1em 0px 0.1em 0em;
-       padding: 5px;
-      //  font-size: 0.83em;
-       font-size: 10px;
+       padding: 12px;
+       font-size: $font-size-12;
        text-decoration: none;
        font-weight: 900;
        &.heading{
@@ -110,11 +110,10 @@ $notification-bg-color: #000;
   button, a {
     height: 35px;
     border-radius: 3px;
-    // padding: 0px 15px 0px 15px;
-    padding: 5px;
+    padding: 12px;
     background-color: $primary-button-color;
     border-color: $primary-theme-color;
-    font-size: $font-size-10;
+    font-size: $font-size-12;
     font-weight: 900;
     transition: 0.2s;
     color: $primary-font-color;
@@ -247,8 +246,8 @@ $notification-bg-color: #000;
   @include button-base;
   @include a-base;
   a {
-    font-size: 1em;
-    padding: 5px;
+    font-size: 12px;
+    padding: 12px;
   }
   .breadcrumb-content {
     display: flex;
@@ -299,9 +298,15 @@ $notification-bg-color: #000;
   @include head-section-mix;
 }
 
-.head-section-features, .head-section-faq{
+.head-section-faq {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
     url(../../images/faq/faq_sm.jpg);
+  @include head-section-mix;
+}
+
+.head-section-features {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+    url(../../images/benefits/heading.jpg);
   @include head-section-mix;
 }
 
@@ -390,6 +395,7 @@ $notification-bg-color: #000;
 .cost-effective--button-container {
       @include button-base;
       @include a-base;
+      margin: 1em 0em 1em 0em;
       a {
         min-width: 18em;
         text-decoration: none !important;
@@ -676,7 +682,7 @@ nav {
   main {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     p {
       margin: 1em 0em 1em 0em;
     }
@@ -739,7 +745,7 @@ nav {
     main {
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
+      justify-content: center;
       p {
         margin: 1em 0em 1em 0em;
       }    
@@ -771,7 +777,9 @@ nav {
     margin-bottom:20px;
     width: 78vw;
   }
-  margin: 5vw;
+  padding: 5vw;
+  margin-bottom: 0;
+  background: $sixth-background;
 }
 
 .footer-section {
@@ -897,6 +905,15 @@ nav {
     min-height: 320px;
     img {
       max-width: 250px;
+    }
+  }
+  
+}
+
+@media only screen and (min-width: $breakpoint-md) {
+  .main-content-section-about-quotation, .notification-section, .notification-faq-section, .feature-section{
+    p {
+      width: auto;
     }
   }
 }
