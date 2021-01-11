@@ -27,12 +27,12 @@ export const data = [
     {
         key: 'faq-data-6',
         title: 'Can Xenia Suite grow as my business grows?',
-        content: 'Yes, absolutely! Xenia Suite is configured for mid-range properties (50 rooms plus) and is scalable and suitable for larger sites up to 130 rooms.Xenia Suite also offers multiple property functionality that can enable individual or centralised back- office accounting.'
+        content: 'Yes, absolutely! Xenia Suite is configured for mid-range properties (50 rooms plus) and is scalable and suitable for larger sites up to 130 rooms. Xenia Suite also offers multiple property functionality that can enable individual or centralised back- office accounting.'
     },
     {
         key: 'faq-data-7',
         title: 'How much does Xenia Suite cost?',
-        content: 'Your hotel management system is an integral part of your business, and we understand you want to invest in the right system for you. At Xenia Suite we offer flexible pricing options based on the size of your property and your occupancy rates.Contact us today for a no- obligation quote.'
+        content: 'Your hotel management system is an integral part of your business, and we understand you want to invest in the right system for you. At Xenia Suite we offer flexible pricing options based on the size of your property and your occupancy rates. Contact us today for a no- obligation quote.'
     }
 ];
 

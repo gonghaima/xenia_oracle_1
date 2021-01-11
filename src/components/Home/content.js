@@ -17,7 +17,7 @@ export const benefits = [
     },
     {
         title: 'Centralised customer data',
-        content: 'Improve the quality and accuracy of your guest profiles with reporting and analytics. Capture your guest’s personal preferences for that special welcome and long term relationship'
+        content: 'Improve the quality and accuracy of your guest profiles with reporting and analytics. Capture your guest’s personal preferences for that special welcome and long term relationship.'
     },
     {
         title: 'Cost effective software',
