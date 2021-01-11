@@ -14,7 +14,7 @@ export default ({ Layout, headerData }) => {
         <Layout header={header}>
             <section className="head-section-features">
                 <div className="head-section-content">
-                    <h2>Xenia Suite Features</h2>
+                    <h2>Features and Benefits</h2>
                 </div>
             </section>
             <section className="features-content-section">

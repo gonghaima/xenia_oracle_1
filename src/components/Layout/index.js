@@ -36,7 +36,7 @@ export default ({ children, header }) => {
                             <Link to="/contact">{header && header.ButtonText}</Link>
                         </div>
                         <h5 className="heading">Contact details</h5>
-                        <h5>P: 0800 4 Xenia | 0800 493 642</h5>
+                        <a className="padding-0" href="tel:0800 493 642">P: 0800 4 Xenia | 0800 493 642</a>
                         <h5>XeniaSales@xeniasuite.com</h5>
                     </div>
                     <div className="right">
@@ -48,7 +48,7 @@ export default ({ children, header }) => {
                     </div>
                 </div>
                 <h5 className="nav">
-                    <a href="mailto:XeniaSales@xeniasuite.com">Customer care</a> |
+                    <a href="mailto:XeniaSales@xeniasuite.com">Contact Customer Care</a> |
                     <Link to="/career">Careers</Link> |
                     <a href="https://www.facebook.com/Xenia-Suite-617066291991191/" target="_blank">Facebook</a> |
                     <a href="https://www.linkedin.com/company/xenia-suite" target="_blank">LinkedIn</a>

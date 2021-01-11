@@ -26,7 +26,11 @@ export default ({ Layout, headerData }) => {
                 {
                     data.map((d, idx) => <main key={`main${idx}`} id={`main${idx}`}><h5>{d.title}</h5><p>{d.content}</p></main>)
                 }
-                <main key='main-underline'><h5 className="underline">What does Xenia Suite do?</h5></main>
+            </section>
+            <section className={`faq-content-section`}>
+                <h2>What does Xenia Suite do?</h2>
+            </section>
+            <section className={`main-section-faq padding-top-0`}>
                 {
                     activities.map((activity, aIdx) =>
                         activity.details.map((detail, dIdx) => {
@@ -51,7 +55,7 @@ export default ({ Layout, headerData }) => {
                 }
             </section>
             <section className="notification-faq-section">
-                <h2>Have more questions? Get in touch and we will be happy to help</h2>
+                <h2>Have more questions? Contact us today to find out how Xenia Suite can help you and your business.</h2>
                 <div className="button-container">
                     <Link to="/contact">Get your free quote</Link>
                 </div>
