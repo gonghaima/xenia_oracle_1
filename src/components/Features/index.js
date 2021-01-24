@@ -89,7 +89,7 @@ export default ({ Layout, headerData }) => {
                             Room Service - with just a few clicks of a button your guests can view menus and place orders.
                         </li>
                         <li>
-                            Tours and Activities - partner with local tours and activities and offer special pricing to your guests to make their stay as enjoyable as possible whilst increasing you bottom line
+                            Tours and Activities - partner with local tours and activities and offer special pricing to your guests to make their stay as enjoyable as possible whilst increasing your bottom line
                         </li>
                         <li>
                             Amenities - Guests can book a massage, order a newspaper and request a room clean all through your very own Xenia Guest app.
