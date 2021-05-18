@@ -2,7 +2,6 @@
   "name": "xenia_oracle",
   "version": "0.1.0",
   "private": false,
-  "homepage": "http://xeniasuite.com.au/",
   "dependencies": {
     "@apollo/client": "^3.2.1",
     "@babel/core": "7.7.4",
