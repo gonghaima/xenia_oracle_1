@@ -53,7 +53,7 @@ care of the day to day including: `
 
   return (
     <Router basename={process.env.PUBLIC_URL}>
-      <Home key="home-route" path="/" Layout={Layout} mainData={mainData} headerData={headerData} />
+      <Home key="home-route" default path="/" Layout={Layout} mainData={mainData} headerData={headerData} />
       <Features key="feature-route" path="/features" Layout={Layout} mainData={mainData} headerData={headerData} />
       <About key="about-route" path="/about" Layout={Layout} mainData={mainData} headerData={headerData} />
       <FAQ key="faq-route" id="faq-route" path="/faq" Layout={Layout} mainData={mainData} headerData={headerData} />
