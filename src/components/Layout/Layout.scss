@@ -181,7 +181,7 @@ $notification-bg-color: #000;
 }
 
 .content_margin {
-  margin: 0px 40px 0px 28px;
+  margin: 0px 20px 0px 0px;
 }
 
 .full_width {
@@ -803,6 +803,10 @@ nav {
     & .heading{
       margin: 0.6em 0px 0.6em 0em;
     }
+  }
+  & .left a{
+    justify-content: start;
+    margin-right:20px;
   }
   & .footer-button-container{
     @include button-base;

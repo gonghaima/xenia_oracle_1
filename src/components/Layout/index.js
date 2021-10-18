@@ -1,6 +1,7 @@
 import React from 'react';
 import './Layout.scss';
 import logo from '../../images/xenia.svg';
+import companyBrochure from '../../images/Company-Brochure.pdf';
 import { Link } from '@reach/router';
 
 
@@ -24,6 +25,9 @@ export default ({ children, header }) => {
                 <div className="content_margin flex-center breadcrumb-content">
                     <Link to="/contact">Request your free demo</Link>
                 </div>
+                <div className="content_margin flex-center breadcrumb-content">
+                    <a href={companyBrochure} download>Download PDF</a>
+                </div>
             </div>
 
             {children}
@@ -34,6 +38,7 @@ export default ({ children, header }) => {
                     <div className="left">
                         <div className="footer-button-container">
                             <Link to="/contact">{header && header.ButtonText}</Link>
+                            <a href={companyBrochure} download>Download PDF</a>
                         </div>
                         <h5 className="heading">Contact details</h5>
                         <a className="padding-0" href="tel:0800 493 642">P: 0800 4 Xenia | 0800 493 642</a>
