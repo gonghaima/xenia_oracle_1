@@ -172,10 +172,10 @@ $notification-bg-color: #000;
 }
 
 .App {
-  display: block;
-  /* background-color: #ece9e6; */
+  display: flex;
+  flex-direction: column;
   background: #fcfbfa;
-  height: 100%;
+  height: 100vh;
   max-width: 1600px;
   margin: 0 auto;
 }
@@ -242,7 +242,7 @@ $notification-bg-color: #000;
 }
 
 .breadcrumb {
-  height: calc(3.1948881789vw + 26px);
+  min-height: calc(3.1948881789vw + 26px);
   background: rgb(28,28,28);
   width: 100%;
   max-width: 1600px;
@@ -790,6 +790,7 @@ nav {
 }
 
 .footer-section {
+  margin-top:auto;
   padding: 2em;
   display: block;
   background: url(../../images/footer-bg.jpg);
@@ -905,9 +906,6 @@ nav {
       position: absolute;
       margin-top: calc(1vw + 4px);
     }
-  }
-  .breadcrumb {
-    height: calc(3.1948881789vw + 11px);
   }
   .head-section {
     padding-top: 71px;
