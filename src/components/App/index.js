@@ -10,16 +10,6 @@ import Career from '../Career';
 import Blog from '../Blog';
 import { gql, useQuery } from '@apollo/client';
 
-
-// const GET_MAINS = gql`
-//   query{
-//     mains {
-//       title
-//       details
-//     }
-//   }
-// `;
-
 const GET_HEADERS = gql`
   query{
     headers{
