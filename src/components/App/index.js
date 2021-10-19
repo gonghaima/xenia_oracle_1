@@ -9,6 +9,7 @@ import Contact from '../Contact';
 import Career from '../Career';
 import Blog from '../Blog';
 import BlogIframe from '../Blog-iframe';
+import BlogProto from '../Blog-prototype';
 import { gql, useQuery } from '@apollo/client';
 
 const GET_HEADERS = gql`
@@ -51,6 +52,7 @@ care of the day to day including: `
       <Contact key="contact-route" id="contact-route" path="/contact" Layout={Layout} headerData={headerData} />
       <Career key="career-route" id="faq-route" path="/career" Layout={Layout} mainData={mainData} headerData={headerData} />
       <BlogIframe key="blog-route" id="blog-route" path="/blog-iframe" Layout={Layout} mainData={mainData} headerData={headerData} />
+      <BlogProto key="blog-route" id="blog-route" path="/blog-prototype" Layout={Layout} mainData={mainData} headerData={headerData} />
       <Blog key="blog-route" id="blog-route" path="/blog" Layout={Layout} mainData={mainData} headerData={headerData} />
     </Router>
   );
