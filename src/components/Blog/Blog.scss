@@ -19,9 +19,9 @@ $dark-gray: #33475b;
   }
   .blog-card {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 30%;
-    flex: 0 0 30%;
-    max-width: 30%;
+    -ms-flex: 0 0 90%;
+    flex: 0 0 90%;
+    max-width: 90%;
     min-height: 450px;
     background-color: $light-gray;
     position: relative;
@@ -116,12 +116,23 @@ $dark-gray: #33475b;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   .blogs-container {
     .blog-card {
       -ms-flex: 0 0 44%;
       flex: 0 0 44%;
       max-width: 44%;
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .blogs-container {
+    .blog-card {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 30%;
+      flex: 0 0 30%;
+      max-width: 30%;
     }
   }
 }
