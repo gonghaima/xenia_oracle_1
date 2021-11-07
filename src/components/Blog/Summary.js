@@ -1,19 +1,24 @@
 import React from 'react';
 import dayjs from 'dayjs';
+import { Link } from '@reach/router';
 
 export default ({ item }) =>
     <div key={item.guid} className="blog-card">
         <figure>
-            <a href="#">
+            <Link to={`/blog/${item.guid.split('/').pop()}`}>
                 <img src={item.thumbnail} alt="Your Blog Title" />
-            </a>
+            </Link>
         </figure>
         <div className="blog-content">
             <div className="blog-topic">
-                <a href="#">{item?.categories[0] || 'Reporting'}</a>
+                <Link to={`/blog/${item.guid.split('/').pop()}`}>
+                    {item?.categories[0] || 'Reporting'}
+                </Link>
             </div>
             <h3 className="blog-title">
-                <a href="#">{item.title}</a>
+                <Link to={`/blog/${item.guid.split('/').pop()}`}>
+                    {item.title}
+                </Link>
             </h3>
             <div className="blog-footer">
                 <a className="blog-category" href="#">{item?.categories[1] || 'Photography'}</a>

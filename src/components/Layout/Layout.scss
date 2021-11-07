@@ -377,6 +377,43 @@ $notification-bg-color: #000;
     text-align: justify;
   }
 }
+
+.blog-content-section {
+  @include content-section;
+  figure img {
+    width: 100%;
+    height: auto;
+  }
+  h2{
+    font-size: 1.7em;
+    margin: 40px 30px 20px 30px;
+    width:78vw;
+  }
+  p {
+    margin-bottom:20px;
+    width: 78vw;
+    max-width: 1500px;
+    text-align: justify;
+  }
+  figure+p:first-of-type {
+    margin-top: 5vw;
+  }
+  hr:last-of-type{
+    margin-top: 20%;
+  }
+  .back-button-container {
+    @include button-base;
+    @include a-base;
+    margin: 1em 0em 1em 0em;
+    a {
+      min-width: 18em;
+      text-decoration: none !important;
+      color: white !important;
+      justify-content: center;
+    }
+  }
+}
+
 .features-content-section, .faq-content-section{
   @include content-section;
    h2{
