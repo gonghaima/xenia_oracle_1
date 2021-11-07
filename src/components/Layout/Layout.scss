@@ -172,10 +172,10 @@ $notification-bg-color: #000;
 }
 
 .App {
-  display: block;
-  /* background-color: #ece9e6; */
+  display: flex;
+  flex-direction: column;
   background: #fcfbfa;
-  height: 100%;
+  min-height: 100vh;
   max-width: 1600px;
   margin: 0 auto;
 }
@@ -242,7 +242,7 @@ $notification-bg-color: #000;
 }
 
 .breadcrumb {
-  height: calc(3.1948881789vw + 26px);
+  min-height: calc(3.1948881789vw + 26px);
   background: rgb(28,28,28);
   width: 100%;
   max-width: 1600px;
@@ -377,6 +377,43 @@ $notification-bg-color: #000;
     text-align: justify;
   }
 }
+
+.blog-content-section {
+  @include content-section;
+  figure img {
+    width: 100%;
+    height: auto;
+  }
+  h2{
+    font-size: 1.7em;
+    margin: 40px 30px 20px 30px;
+    width:78vw;
+  }
+  p {
+    margin-bottom:20px;
+    width: 78vw;
+    max-width: 1500px;
+    text-align: justify;
+  }
+  figure+p:first-of-type {
+    margin-top: 5vw;
+  }
+  hr:last-of-type{
+    margin-top: 20%;
+  }
+  .back-button-container {
+    @include button-base;
+    @include a-base;
+    margin: 1em 0em 1em 0em;
+    a {
+      min-width: 18em;
+      text-decoration: none !important;
+      color: white !important;
+      justify-content: center;
+    }
+  }
+}
+
 .features-content-section, .faq-content-section{
   @include content-section;
    h2{
@@ -790,6 +827,7 @@ nav {
 }
 
 .footer-section {
+  margin-top:auto;
   padding: 2em;
   display: block;
   background: url(../../images/footer-bg.jpg);
@@ -905,9 +943,6 @@ nav {
       position: absolute;
       margin-top: calc(1vw + 4px);
     }
-  }
-  .breadcrumb {
-    height: calc(3.1948881789vw + 11px);
   }
   .head-section {
     padding-top: 71px;

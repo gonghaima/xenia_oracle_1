@@ -8,17 +8,9 @@ import FAQ from '../FAQ';
 import Contact from '../Contact';
 import Career from '../Career';
 import Blog from '../Blog';
-import { gql, useQuery } from '@apollo/client';
-
-
-// const GET_MAINS = gql`
-//   query{
-//     mains {
-//       title
-//       details
-//     }
-//   }
-// `;
+import BlogIframe from '../Blog-iframe';
+import BlogPost from '../Blog/Post'
+import { gql, useQuery, makeVar } from '@apollo/client';
 
 const GET_HEADERS = gql`
   query{
@@ -59,7 +51,10 @@ care of the day to day including: `
       <FAQ key="faq-route" id="faq-route" path="/faq" Layout={Layout} mainData={mainData} headerData={headerData} />
       <Contact key="contact-route" id="contact-route" path="/contact" Layout={Layout} headerData={headerData} />
       <Career key="career-route" id="faq-route" path="/career" Layout={Layout} mainData={mainData} headerData={headerData} />
+      <BlogIframe key="blog-route-iframe" id="blog-route" path="/blog-iframe" Layout={Layout} mainData={mainData} headerData={headerData} />
       <Blog key="blog-route" id="blog-route" path="/blog" Layout={Layout} mainData={mainData} headerData={headerData} />
+      <BlogPost key="blog-post" id="blog-post" path="/blog/:postId" Layout={Layout} mainData={mainData} headerData={headerData} />
+
     </Router>
   );
 }
