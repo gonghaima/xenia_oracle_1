@@ -32,7 +32,7 @@ export default ({ Layout, headerData, mainData }) => {
           <img alt="main-img" src={hotelManagement} />
         </section>
         <section className="notification-section">
-          <h2>Covid-19 Update</h2>
+          <h2>Supporting Sustainable Business</h2>
           <p>
             At Xenia Suite, we understand the challenges involved in working in
             a seasonal business, and even more so during a global crisis. We
