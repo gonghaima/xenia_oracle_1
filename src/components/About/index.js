@@ -15,7 +15,8 @@ export default ({ headerData }) => {
         <Layout header={header}>
             <section className="head-section-about">
                 <div className="head-section-content">
-                    <img alt="heading-logo" src={headingLogoImg} />
+                    {/* <img alt="heading-logo" src={headingLogoImg} /> */}
+                    <h2>About Us</h2>
                 </div>
             </section>
             <section className="about-content-section">
