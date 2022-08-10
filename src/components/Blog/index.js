@@ -1,9 +1,7 @@
-
 import React, { useEffect, useState } from 'react';
-import Summary from './Summary'
+import Summary from './Summary';
 import { data } from './data';
 import './Blog.scss';
-
 
 export default ({ Layout, headerData }) => {
   const [header] = headerData.headers;
@@ -16,7 +14,9 @@ export default ({ Layout, headerData }) => {
 
   useEffect(() => {
     (async () => {
-      let response = await fetchData("https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/xeniasuite");
+      let response = await fetchData(
+        'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/xeniasuite'
+      );
       setBlogData(response);
     })();
   }, []);
@@ -24,10 +24,8 @@ export default ({ Layout, headerData }) => {
   return (
     <Layout header={header}>
       <div className="blogs-container">
-        {data.items.map(item => <Summary item={item} />
-        )}
+        {blogData && blogData?.items?.map((item) => <Summary item={item} />)}
       </div>
     </Layout>
-
-  )
-}
+  );
+};
