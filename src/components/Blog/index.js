@@ -17,6 +17,7 @@ export default ({ Layout, headerData }) => {
       let response = await fetchData(
         'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/xeniasuite'
       );
+      // setBlogData(data);
       setBlogData(response);
     })();
   }, []);
