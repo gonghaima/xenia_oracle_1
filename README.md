@@ -13,3 +13,7 @@ if not work, try use PUBLIC_URL
 [Reference](<[refe](https://stackoverflow.com/questions/43011207/using-homepage-in-package-json-without-messing-up-paths-for-localhost)>)
 
 "homepage": "http://xeniasuite.com.au/"
+
+common file location
+/Users/stevengong/temp/xenia_oracle_1/build/
+/Users/stevengong/pms/xenia_oracle_1/build/
